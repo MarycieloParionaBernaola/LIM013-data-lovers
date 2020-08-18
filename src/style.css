@@ -1,0 +1,19 @@
+.cards{
+max-width: 650px;
+padding: 20px;
+margin: 30px auto;
+background-color: darkgrey;
+overflow: hidden;
+}
+
+.photos{
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+}
