@@ -1,9 +1,36 @@
-// estas funciones son de ejemplo
+export const sortDataByName = {
 
-export const example = () => {
-  return 'example';
-};
+  sortData: (data, sortBy, sortOrder) => {
+        
+    if (sortBy === "name" && sortOrder ==="A-Z"){
+      data.sort((a,b)=>{
+        if (a.name < b.name){
+          return -1; 
+        }
+        if (a.name > b.name){
+          return 1; 
+        }
+        //a debe ser igual a b
+        return 0; 
+      })
+      return data;
+    }
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+    if (sortBy === "name" && sortOrder === "Z-A"){
+      data.sort((a,b) =>{
+        if(a.name > b.name) {
+          return -1; 
+        }
+        if (a.name < b.name){
+          return 1; 
+        }
+        //a debe ser igual a b
+        return 0; 
+      })
+      return data; 
+    }
+  }
+}
+
+
+

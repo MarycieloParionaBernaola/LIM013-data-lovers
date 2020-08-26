@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <!--All HTML5 documents must start with this declaration, it's an "information" to the browser about what document type to expect, also it's not case sensitive-->
+<html lang="en"> <!--This attribute should always include here to declare the language and assist search engines and browsers-->
 
   <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <meta charset="utf-8"> <!--To display an HTML page correctly, a web browser must know the character set used in the page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--To create a responsive website-->
+    <title>Rick&Morty</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="index.html">Home</a>
+        <a href="#"><img src="images/homeicon.jpg"></a>
       </nav>
       <h1>Rick & Morty Fandom</h1>
       <form>
@@ -18,31 +19,36 @@
         <button type="submit">Search</button>
       </form>
       <select name="filter-by">
-        <option value="">--Filter by--</option>
-        <option value="human">Human</option>
-        <option value="human">Alien</option>
-        <option value="human">Humanoid</option>
-        <option value="human">Unknown</option>
-        <option value="human">Poopybutthole</option>
-        <option value="human">Mytholog</option>
-        <option value="human">Animal</option>
-        <option value="human">Vampire</option>
-        <option value="human">Robot</option>
-        <option value="human">Cronenberg</option>
-        <option value="human">Disease</option>
-        <option value="human">Parasite</option>
+        <option value="" disabled selected>--Filter by--</option>
+        <option value="Human">Human</option>
+        <option value="Alien">Alien</option>
+        <option value="Humanoid">Humanoid</option>
+        <option value="Unknown">Unknown</option>
+        <option value="Poopybutthole">Poopybutthole</option>
+        <option value="Mytholog">Mytholog</option>
+        <option value="Animal">Animal</option>
+        <option value="Vampire">Vampire</option>
+        <option value="Robot">Robot</option>
+        <option value="Cronenberg">Cronenberg</option>
+        <option value="Disease">Disease</option>
+        <option value="Parasite">Parasite</option>
       </select>
 
-      <select name="sort-by">
-        <option value="">--Sort by--</option>
-        <option value="human">Alphabetic A-Z</option>
-        <option value="human">Alphabetic Z-A</option>
-        <option value="human">Relevant</option>
+      <select name="sort-by" class="sort-by">
+        <option value="" disabled selected>--Sort by--</option>
+        <option value="A-Z">Sort A-Z</option>
+        <option value="Z-A">Sort Z-A</option>
+        <option value="Relevant">Relevant</option>
       </select>
     </header>
-    <main id="container">
+
+    <main id="first-container">
     <h2>Welcome to Rick & Morty Fandom!</h2>
     <article>Here you can find all information about the best series in the world Rick & Morty.</article>
+    <div id= "random-cards-container"></div> <!-- Only random cards -->
+    <div id="all-cards-container"></div> <!-- All cards -->
+    <div id="organized-container"></div> <!-- Organized container-->
+    <a href="#all-cards-container">View more</a>
     </main>
 
     <footer>

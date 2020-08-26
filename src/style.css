@@ -1,8 +1,19 @@
+body {
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+}
+
+header {
+    background-color: rgba(2, 170, 176, 1); 
+}
+
 .cards{
 max-width: 650px;
 padding: 20px;
 margin: 30px auto;
-background-color: darkgrey;
+background-color: whitesmoke;
+color: black; 
 overflow: hidden;
 }
 
