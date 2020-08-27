@@ -8,9 +8,8 @@ export const anotherExample = () => {
   return 'OMG';
 };
 
-export const filterDataBySpecies = (data,condition,property) => {
-  const species = item => item[property] == condition;
-  const newArray = data.filter(species);
-  // console.table(newArray);
-  return newArray;
+export const filterDataByProperty = (data, property, type) => {
+  const condition = item => item[property] == type;
+  const filterArray = data.filter(condition);
+  return filterArray;
 };
