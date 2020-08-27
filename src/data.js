@@ -8,9 +8,9 @@ export const anotherExample = () => {
   return 'OMG';
 };
 
-export const filterDataBySpecies = (data,condition) => {
-  const species = item => item.species == condition;
+export const filterDataBySpecies = (data,condition,property) => {
+  const species = item => item[property] == condition;
   const newArray = data.filter(species);
-  console.table(newArray);
+  // console.table(newArray);
   return newArray;
 };

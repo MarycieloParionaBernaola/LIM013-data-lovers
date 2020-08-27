@@ -15,7 +15,7 @@ const charactersCards = (characters) => {
     `
 }
 const container = document.getElementById('container');
-const containerCards = document.createElement('section')
+const containerCards = document.createElement('section');
 container.appendChild(containerCards);
 
 containerCards.innerHTML = `
@@ -26,16 +26,10 @@ ${data.results.map(charactersCards).join('')}
 const selectFilterBy = document.querySelector('.filter-by-species');
 selectFilterBy.addEventListener('change', (event) => {
     console.log (event.target.value);
-    if(event.target.value == 'all'){
-        document.getElementById('container').innerHTML = `
-        ${data.results.map(charactersCards).join('')}
-        `
-    }else{
-    const species = event.target.value;
-    const filter = filterDataBySpecies(data.results,species);
+    const speciesType = event.target.value;
+    const filter = filterDataBySpecies(data.results,speciesType,'species');
     container.innerHTML = `
     ${filter.map(charactersCards).join('')}
     `
-    }
 })
 
