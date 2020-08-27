@@ -1,4 +1,4 @@
-.cards{
+.card{
 max-width: 650px;
 padding: 20px;
 margin: 30px auto;
@@ -6,7 +6,7 @@ background-color: darkgrey;
 overflow: hidden;
 }
 
-.photos{
+.photo{
     float: left;
     width: 40%;
     margin-right: 15px;
