@@ -2,7 +2,7 @@ export const sortDataByName = {
 
   sortData: (data, sortBy, sortOrder) => {
         
-    if (sortBy === "name" && sortOrder ==="A-Z"){
+    if (sortBy === "name" && sortOrder === "A-Z"){
       data.sort((a,b)=>{
         if (a.name < b.name){
           return -1; 
@@ -10,7 +10,6 @@ export const sortDataByName = {
         if (a.name > b.name){
           return 1; 
         }
-        //a debe ser igual a b
         return 0; 
       })
       return data;
@@ -24,7 +23,6 @@ export const sortDataByName = {
         if (a.name < b.name){
           return 1; 
         }
-        //a debe ser igual a b
         return 0; 
       })
       return data; 
