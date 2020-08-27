@@ -9,7 +9,6 @@ export const anotherExample = () => {
 };
 
 export const filterDataByProperty = (data, property, type) => {
-  const condition = item => item[property] == type;
-  const filterArray = data.filter(condition);
+  const filterArray = data.filter(item => item[property] == type);
   return filterArray;
 };
