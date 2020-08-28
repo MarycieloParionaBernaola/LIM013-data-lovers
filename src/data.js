@@ -1,5 +1,13 @@
 
-// Function Sort
+// Filter function
+export const filterDataByProperty = (data, property, type) => {
+  const filterArray = data.filter(item => item[property] == type || item [property].toLowerCase().includes(type)); 
+  //console.log(filterArray);
+  return filterArray;
+};
+
+
+// Sort object
 export const sortDataByName = {
 
   sortData: (data, sortBy, sortOrder) => {       
@@ -31,10 +39,3 @@ export const sortDataByName = {
     }
   }
 }
-
-
-// Filter function
-export const filterDataByProperty = (data, property, type) => {
-  const filterArray = data.filter(item => item[property] == type);
-  return filterArray;
-};

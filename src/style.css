@@ -1,3 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-color: white; 
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: rgba(2, 170, 176, 1); 
 }
@@ -14,6 +24,7 @@ background-color: whitesmoke;
 color: black; 
 overflow: hidden;
 }
+
 
 .photo{
     float: left;

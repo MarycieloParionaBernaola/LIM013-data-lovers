@@ -1,6 +1,7 @@
-import { sortDataByName } from './data.js';
-import { filterDataByProperty } from './data.js';
 import data from './data/rickandmorty/rickandmorty.js';
+import { filterDataByProperty } from './data.js';
+import { sortDataByName } from './data.js';
+
 
 const mainContainer = document.getElementById('main-container');
 const cardsContainer = document.createElement('ul');
@@ -23,6 +24,16 @@ const dataRickAndMorty = data.results;
         container.innerHTML = htmlString;
     }
     displayCharacters(dataRickAndMorty, cardsContainer);
+
+    // Search Bar
+    const searchBar = document.getElementById('search-bar');
+    searchBar.addEventListener('keyup', (event) => {
+        const inputName = event.target.value; 
+        //console.log(inputName);
+        const searchByName = filterDataByProperty(dataRickAndMorty, 'name', inputName);
+        displayCharacters(searchByName, mainContainer);
+    })
+    
 
 
     // Filter by species
