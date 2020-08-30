@@ -23,16 +23,21 @@ header {
     width: 100%;
     padding: 20px; 
     display: flex; 
-    flex-flow: row nowrap; 
+    flex-flow: row wrap; 
     justify-content: space-between;
     align-items: flex-start;
 }
 
 .logo {
-    align-self: flex-start; 
+    display: flex; 
+    flex-flow: row nowrap;  
+    align-items: flex-start;
     width: 70%; 
 }
 
+header nav {
+    align-self: flex-start;
+}
 .bar-navigaton {
     align-self: flex-end; 
 }
@@ -51,7 +56,6 @@ main {
     flex-flow: row wrap; 
     justify-content: center; 
     align-content: center; 
-    margin: 1rem 0rem;
     background-color: #222;
     padding: 1rem 0rem; 
 
@@ -61,7 +65,6 @@ main {
     display: flex; 
     justify-content: center;
     width: 100%;
-    margin-bottom: 0.5rem;
 }
 
 
@@ -84,7 +87,9 @@ main {
 h1{
     font-weight: bold; 
     font-size: 3rem; 
-    padding: 20px;
+    padding: 1rem;
+    align-self: flex-start; 
+
 }
 
 
@@ -112,63 +117,114 @@ li {
     display: flex; 
     width: 100%;
     flex-flow: row wrap;
-    background: white; 
+    background-color: whitesmoke;
+    justify-content: center; 
+    align-items: center; 
+    
 }
 
 .card{
-    width: 30%;
+    width: 25%;
     margin: 2rem; 
-    background-color: rgb(218, 218, 218, 0.9); 
+    background-color: white; 
+    color: #222; 
     border-radius: 1rem;
     -moz-border-radius: 1rem;
     -webkit-border-radius: 1rem;
     display: flex; 
-    flex-flow: row nowrap; 
+    flex-flow: column; 
     justify-content: flex-start; 
     align-items: center;
+    line-height: 2rem;  
+    border: 1px solid #222; 
+
 }
 
-.photo-column {
+.photo-character {
     display: flex; 
     justify-content: flex-start;
 }
 
 .information-column {
-    width: 80%;
+    width: 15rem;
     display: flex; 
-    flex-direction: column;
+    flex-direction: row wrap; 
     align-items: center; 
-    justify-content: flex-start; 
+    justify-content: center; 
+    padding: 3rem; 
 }
 
 .name {
+    font-weight: bold;
+    font-size: 1.7rem; 
     align-self: center; 
 }
 
+.name-character {
+    background-color: #00ff6a;
+    width: 100%; 
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: center; 
+    padding: 0.5rem; 
+    border-radius: inherit; 
+    border-bottom-left-radius: 0;
+
+}
+
 .photo {
-    border-radius: 1rem 0rem 0rem 1rem;
-    -moz-border-radius: 1rem 0rem 0rem 1rem;
-    -webkit-border-radius: 1rem 0rem 0rem 1rem;
-    width: 50%
+    width: 100%;
+    margin-top: 1rem; 
 }
 footer {
     width: 100%;
     display: flex; 
     flex-wrap: wrap; 
     flex-direction: column; 
-    background-color: rgb(128, 253, 176);
+    align-content: center; 
+    background-color: #222;
+    padding: 1rem; 
+    color: #F1C40F;
 }
 
 .social, .authors {
-    width: 100%;
     display: flex; 
+    flex-flow: row nowrap; 
     justify-content: center;
+    align-items: center;
+    color: #F1C40F;
+    
+    
+}
+
+.social {
+    width: 50%; 
+}
+
+.authors {
+    width: 100; 
+}
+
+.social a img {
+    width: 3rem;
+}
+
+.social a {
+    margin: 1.5rem; 
+}
+
+.authors p {
+    font-size: 1.3rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem; 
+    color: white; 
 }
 
 
 ul {
     display: flex; 
     flex-flow: row wrap; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
+    justify-content: center; 
+    align-items: center; 
 }

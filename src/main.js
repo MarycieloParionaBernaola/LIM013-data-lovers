@@ -14,12 +14,17 @@ const dataRickAndMorty = data.results;
         const htmlString = characters.map((character) => {
             return `
             <li class = 'card'>
-            <div = 'photo-column'>
-                <img class = 'photo' src = "${character.image}">
-            </div>
-            <div = 'information-column'>
+                <div class = 'name-character'>
                 <h2 class = 'name'>${character.name}</h2>
+                </div>
+                <div class = 'photo-character'>
+                <img class = 'photo' src = "${character.image}">
+                </div>
+            <div = 'information-column'>
                 <p><b>Specie:</b> ${character.species}</p>
+                <p><b>Gender:</b> ${character.gender}</p>
+                <p><b>Origin:</b> ${character.origin.name}</p>
+                <p><b>Last location:</b> ${character.location.name}</p>
             </div>
             </li>
             `;
@@ -63,14 +68,14 @@ const dataRickAndMorty = data.results;
         const footer = document.getElementById('footer');
         footer.innerHTML = `
             <div class="social">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-                <a href="#">Store</a>
-                <a href="#">Coffee</a>
+                <a href="https://www.facebook.com/RickandMorty/"><img src="images/facebook.png"></a>
+                <a href="https://www.instagram.com/rickandmorty/"><img src="images/instagram.png"></a>
+                <a href="https://twitter.com/rickandmorty"><img src="images/twitter.png"></a>
+                <a href="#"><img src="images/shop.png"></a>
+                <a href="https://ko-fi.com/"><img src="images/coffee.png"></a>
             </div>
             <div class="authors">
-                <p>By Marycielo & Sheilly - LIM013 Laboratoria 2020</p>
+                <p>BY MARYCIELO & SHEILLY - LIM013 LABORATORIA 2020</p>
             </div>
             `
     } 
