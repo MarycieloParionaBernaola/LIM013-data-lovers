@@ -14,9 +14,13 @@ const dataRickAndMorty = data.results;
         const htmlString = characters.map((character) => {
             return `
             <li class = 'card'>
+            <div = 'photo-column'>
                 <img class = 'photo' src = "${character.image}">
+            </div>
+            <div = 'information-column'>
                 <h2 class = 'name'>${character.name}</h2>
                 <p><b>Specie:</b> ${character.species}</p>
+            </div>
             </li>
             `;
         })
@@ -58,12 +62,16 @@ const dataRickAndMorty = data.results;
     const displayFooter = () =>{
         const footer = document.getElementById('footer');
         footer.innerHTML = `
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">Store</a>
-            <a href="#">Coffee</a>
-            <p>By Marycielo & Sheilly - LIM013 Laboratoria 2020</p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Store</a>
+                <a href="#">Coffee</a>
+            </div>
+            <div class="authors">
+                <p>By Marycielo & Sheilly - LIM013 Laboratoria 2020</p>
+            </div>
             `
     } 
     displayFooter();

@@ -4,50 +4,71 @@
   <head>
     <meta charset="utf-8"> <!--To display an HTML page correctly, a web browser must know the character set used in the page-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--To create a responsive website-->
-    <title>Rick&Morty</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Rick and Morty</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html"><img src="images/homeicon.jpg"></a>
-      </nav>
-      <h1>Rick & Morty Fandom</h1>
-      <form>
-        <input type="search" id="search-bar" placeholder="Search by name" autocomplete="off">
-      </form>
+    <div class="container">
+      <header>
+        <div class="logo">
+        <nav>
+          <a href="index.html"><img src="images/rickandmortyicon.png" class="icon"></a>
+        </nav>
+        <h1>Rick and Morty</h1>
+        </div>
+        
+        <div class="bar-navigation">
+        <ul>
+          <li>Did you know?</li>
+          <li>About us</li>
+          <li>Help us</li>
+        </ul>
+        </div>
+      </header>
+
+      <main>
+        <h2>Welcome!</h2>
+        <p><strong>Here you can find all information about the characters of Rick and Morty series.</strong></p>
+      </main>
+        
+        <div class="fixed-bar">
+          <form>
+            <input type="search" id="search-bar" class="search-bar" placeholder="Search by name" autocomplete="off">
+          </form>
+        
+          <select name="filter-by" class="filter-by-species">
+            <option value="" disabled selected>Filter by</option>
+            <option class="lt" value="Human">Human</option>
+            <option value="Alien">Alien</option>
+            <option value="Humanoid">Humanoid</option>
+            <option value="Unknown">Unknown</option>
+            <option value="Poopybutthole">Poopybutthole</option>
+            <option value="Mytholog">Mytholog</option>
+            <option value="Animal">Animal</option>
+            <option value="Vampire">Vampire</option>
+            <option value="Robot">Robot</option>
+            <option value="Cronenberg">Cronenberg</option>
+            <option value="Disease">Disease</option>
+            <option value="Parasite">Parasite</option>
+          </select>
+
+          <select name="sort-by" class="sort-by">
+            <option value="" disabled selected>Sort by</option>
+            <option value="A-Z">Alphabetic A-Z</option>
+            <option value="Z-A">Alphabetic Z-A</option>
+            <option value="Relevant">Relevant</option>
+          </select>
+        </div>
       
-      <select name="filter-by" class="filter-by-species">
-        <option value="" disabled selected>--Filter by--</option>
-        <option value="Human">Human</option>
-        <option value="Alien">Alien</option>
-        <option value="Humanoid">Humanoid</option>
-        <option value="unknown">unknown</option>
-        <option value="Poopybutthole">Poopybutthole</option>
-        <option value="Mytholog">Mytholog</option>
-        <option value="Animal">Animal</option>
-        <option value="Vampire">Vampire</option>
-        <option value="Robot">Robot</option>
-        <option value="Cronenberg">Cronenberg</option>
-        <option value="Disease">Disease</option>
-        <option value="Parasite">Parasite</option>
-      </select>
+        <div id="main-container">
+        </div> 
 
-      <select name="sort-by" class="sort-by">
-        <option value="" disabled selected>--Sort by--</option>
-        <option value="A-Z">Alphabetic A-Z</option>
-        <option value="Z-A">Alphabetic Z-A</option>
-        <option value="Relevant">Relevant</option>
-      </select>
-    </header>
-    <main id="main-container">
-      <h2>Welcome to Rick & Morty Fandom!</h2>
-      <p>Here you can find all information about the best series in the world Rick & Morty.</p>
-    </main>
-
-    <footer id="footer">
-    </footer>
+      <footer id="footer">
+      </footer>
+    </div>
 
     <script src="main.js" type="module"></script>
 
