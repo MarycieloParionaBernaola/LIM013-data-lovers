@@ -2,12 +2,15 @@ import data from './data/rickandmorty/rickandmorty.js';
 import { filterDataByProperty } from './data.js';
 import { sortDataByName } from './data.js';
 
+
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');
 
-toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
-})
+    // Hamburguer Menu
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        })
 
 const mainContainer = document.getElementById('main-container');
 const cardsContainer = document.createElement('ul');
