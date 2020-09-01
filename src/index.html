@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <!-- <div class="container"> -->
       <header>
         <nav class="navbar">
           <div class="brand-title">
@@ -34,12 +34,13 @@
       </header>
 
       <main>
-        <h2>Welcome!</h2>
-        <p><strong>Here you can find all information about the characters of Rick and Morty series.</strong></p>
-      </main>
-        
+        <div class="intro-container">
+          <h2>Welcome!</h2>
+          <p><strong>Here you can find all information about the characters of Rick and Morty series.</strong></p>
+        </div>
+              
         <div class="fixed-bar">
-          <form>
+          <form class="search-container">
             <input type="search" id="search-bar" class="search-bar" placeholder="Search by name" autocomplete="off">
           </form>
         
@@ -67,12 +68,12 @@
           </select>
         </div>
       
-        <div id="main-container">
+        <div id="cards-container" class="cards-container">
         </div> 
-
+      </main>
       <footer id="footer">
       </footer>
-    </div>
+    <!-- </div> -->
 
     <script src="main.js" type="module"></script>
 

@@ -12,13 +12,13 @@ const navbarLinks = document.getElementById('navbar-links');
             navbarLinks.classList.toggle('active');
         })
 
-const mainContainer = document.getElementById('main-container');
-const cardsContainer = document.createElement('ul');
-mainContainer.appendChild(cardsContainer);
+const cardsContainer = document.getElementById('cards-container');
+const childCardsContainer = document.createElement('ul');
+cardsContainer.appendChild(childCardsContainer);
 const dataRickAndMorty = data.results;
 
     // Display Characters 
-    const displayCharacters = (characters, container) => {
+    const displayCharacters = (characters) => {
 
         const htmlString = characters.map((character) => {
             return `
@@ -39,9 +39,9 @@ const dataRickAndMorty = data.results;
             `;
         })
         .join('');
-        container.innerHTML = htmlString;
+        childCardsContainer.innerHTML = htmlString;
     }
-    displayCharacters(dataRickAndMorty, cardsContainer);
+    displayCharacters(dataRickAndMorty);
 
     // Search Bar
     const searchBar = document.getElementById('search-bar');
@@ -49,7 +49,7 @@ const dataRickAndMorty = data.results;
         const inputName = event.target.value; 
         //console.log(inputName);
         const searchByName = filterDataByProperty(dataRickAndMorty, 'name', inputName);
-        displayCharacters(searchByName, mainContainer);
+        displayCharacters(searchByName);
     })
     
 
@@ -59,7 +59,7 @@ const dataRickAndMorty = data.results;
     filterBySpecies.addEventListener('change', (event) => {
         const specieSelected = event.target.value;
         const filter = filterDataByProperty(dataRickAndMorty, 'species', specieSelected);
-        displayCharacters(filter, mainContainer);
+        displayCharacters(filter);
     })
 
 
@@ -68,7 +68,7 @@ const dataRickAndMorty = data.results;
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
         const sort = sortDataByName.sortData(dataRickAndMorty,'name', sortSelected);
-        displayCharacters(sort, mainContainer);
+        displayCharacters(sort);
     });
     
         

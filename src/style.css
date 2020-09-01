@@ -9,12 +9,20 @@ body {
     color: #222; 
     text-decoration: none; 
     background-color: white; 
+    width: 100%;
+    display: flex; 
+    flex-flow: row wrap;
 }
+
+/* .container {
+    width: 100%;
+    display: flex; 
+    flex-flow: row wrap;
+} */
 
 header {
     background: linear-gradient(90deg, #fffb00 0%, #17dcff 100%);
     width: 100%;
-    padding: 20px; 
     display: flex; 
     flex-flow: row wrap; 
 }
@@ -24,12 +32,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-flow: row wrap; 
 }
 
 .brand-title {
     font-size: 1.5rem;
     display: flex;
     flex-flow: row nowrap;
+    align-items: center; 
 }
 
 .brand-title h1 {
@@ -60,7 +70,7 @@ header {
     font-size: 1.5rem; 
     color: #222; 
     padding: 1rem;
-    display: block;
+    display: block; 
 }
 
 .navbar-links li:hover {
@@ -129,14 +139,14 @@ header {
 
 } 
 
-.container {
+
+main {
     width: 100%;
     display: flex; 
     flex-flow: row wrap;
-    
 }
 
-main {
+.intro-container {
     width: 100%;
     font-size: 1.3rem; 
     text-align: center;  
@@ -193,15 +203,22 @@ li {
     list-style-type: none;
 } 
 
-#main-container {
+.cards-container {
     display: flex; 
     width: 100%;
     flex-flow: row wrap;
     background-color: whitesmoke;
     justify-content: center; 
     align-items: center; 
-    
 }
+
+.cards-container ul {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
+
 
 .card{
     width: 25%;
@@ -220,25 +237,13 @@ li {
 
 }
 
-.photo-character {
-    display: flex; 
-    justify-content: flex-start;
-}
-
-.information-column {
-    width: 15rem;
-    display: flex; 
-    flex-direction: row wrap; 
-    align-items: center; 
-    justify-content: center; 
-    padding: 3rem; 
-}
 
 .name {
     font-weight: bold;
     font-size: 1.7rem; 
     align-self: center; 
 }
+
 
 .name-character {
     background-color: #00ff6a;
@@ -250,13 +255,31 @@ li {
     border-radius: inherit; 
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-
 }
+
+
+.photo-character {
+    display: flex; 
+    justify-content: flex-start;
+}
+
 
 .photo {
     width: 100%;
     margin-top: 1rem; 
 }
+
+
+.information-column {
+    width: 15rem;
+    display: flex; 
+    flex-direction: row wrap; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 3rem; 
+}
+
+
 footer {
     width: 100%;
     display: flex; 
@@ -273,26 +296,28 @@ footer {
     flex-flow: row nowrap; 
     justify-content: center;
     align-items: center;
-    color: #F1C40F;
-    
-    
+    color: #F1C40F;    
 }
 
 .social {
     width: 50%; 
 }
 
-.authors {
-    width: 100; 
+
+.social a {
+    margin: 1.5rem; 
 }
+
 
 .social a img {
     width: 3rem;
 }
 
-.social a {
-    margin: 1.5rem; 
+
+.authors {
+    width: 100%; 
 }
+
 
 .authors p {
     font-size: 1.3rem; 
@@ -303,9 +328,3 @@ footer {
 }
 
 
-#main-container ul {
-    display: flex; 
-    flex-flow: row wrap; 
-    justify-content: center; 
-    align-items: center; 
-}
