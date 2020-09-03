@@ -1,12 +1,21 @@
-
 // Filter function
-export const filterDataByProperty = (data, property, type) => {
-  const filterArray = data.filter(item => item[property] == type || item [property].toLowerCase().includes(type)); 
-  //console.log(filterArray);
-  return filterArray;
-};
+export const filterData = {
 
+  byProperty: (data, property, type) => {
+    const filterArray = data.filter (item => item [property] == type)
+    // console.log(filterArray);
+    return filterArray
+  },
 
+  searchByName : (data, property, type) => {
+    const filterSearchArray = data.filter ( item => item [property].toLowerCase().includes(type.toLowerCase()))
+    // console.log (type.toLowerCase());
+    // console.log (filterSearchArray)
+    return filterSearchArray;
+  }
+}
+
+/*
 // Sort object
 export const sortDataByName = {
 
@@ -39,3 +48,4 @@ export const sortDataByName = {
     }
   }
 }
+*/

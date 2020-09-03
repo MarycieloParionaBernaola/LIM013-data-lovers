@@ -267,7 +267,7 @@ export default {
       {
           "id": 7,
           "name": "Abradolf Lincler",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Genetic experiment",
           "gender": "Male",
@@ -295,7 +295,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -339,7 +339,7 @@ export default {
           "type": "Superhuman (Ghost trains summoner)",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -400,12 +400,12 @@ export default {
       {
           "id": 13,
           "name": "Alien Googah",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -422,12 +422,12 @@ export default {
       {
           "id": 14,
           "name": "Alien Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -444,12 +444,12 @@ export default {
       {
           "id": 15,
           "name": "Alien Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -471,7 +471,7 @@ export default {
           "type": "Parasite, Cyborg",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -515,7 +515,7 @@ export default {
           "type": "Human with antennae",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -533,16 +533,16 @@ export default {
       {
           "id": 19,
           "name": "Antenna Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Human with antennae",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/19.jpeg",
@@ -555,12 +555,12 @@ export default {
       {
           "id": 20,
           "name": "Ants in my Eyes Johnson",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Human with ants in his eyes",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -577,12 +577,12 @@ export default {
       {
           "id": 21,
           "name": "Aqua Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Humanoid",
           "type": "Fish-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -600,12 +600,12 @@ export default {
       {
           "id": 22,
           "name": "Aqua Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Humanoid",
           "type": "Fish-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -624,12 +624,12 @@ export default {
       {
           "id": 23,
           "name": "Arcade Alien",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -673,7 +673,7 @@ export default {
           "id": 25,
           "name": "Armothy",
           "status": "Dead",
-          "species": "unknown",
+          "species": "Unknown",
           "type": "Self-aware arm",
           "gender": "Male",
           "origin": {
@@ -721,7 +721,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -744,7 +744,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -768,7 +768,7 @@ export default {
           "type": "Human with baby legs",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -790,11 +790,11 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/30.jpeg",
@@ -812,7 +812,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -834,7 +834,7 @@ export default {
           "type": "Parasite",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -878,7 +878,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -900,7 +900,7 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Bepisian",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Bepis 9",
               "url": "https://rickandmortyapi.com/api/location/11"
@@ -925,13 +925,13 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Hivemind",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/36.jpeg",
@@ -1060,12 +1060,12 @@ export default {
       {
           "id": 42,
           "name": "Big Head Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Human with giant head",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1087,7 +1087,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1109,7 +1109,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1148,7 +1148,7 @@ export default {
       {
           "id": 46,
           "name": "Bill",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Animal",
           "type": "Dog",
           "gender": "Male",
@@ -1157,7 +1157,7 @@ export default {
               "url": "https://rickandmortyapi.com/api/location/20"
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/46.jpeg",
@@ -1201,7 +1201,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1222,9 +1222,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1246,7 +1246,7 @@ export default {
           "type": "Korblock",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1268,7 +1268,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1307,12 +1307,12 @@ export default {
       {
           "id": 53,
           "name": "Blue Shirt Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1334,7 +1334,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1354,9 +1354,9 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Boobloosian",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1379,7 +1379,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1401,11 +1401,11 @@ export default {
           "type": "Elephant-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/57.jpeg",
@@ -1469,11 +1469,11 @@ export default {
           "type": "Superhuman",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/60.jpeg",
@@ -1491,7 +1491,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1517,7 +1517,7 @@ export default {
               "url": "https://rickandmortyapi.com/api/location/19"
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/62.jpeg",
@@ -1535,7 +1535,7 @@ export default {
           "type": "Centaur",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1555,9 +1555,9 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Organic gun",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1667,7 +1667,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1689,11 +1689,11 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/70.jpeg",
@@ -1709,7 +1709,7 @@ export default {
           "status": "Dead",
           "species": "Robot",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Earth (Replacement Dimension)",
               "url": "https://rickandmortyapi.com/api/location/20"
@@ -1755,7 +1755,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1777,7 +1777,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1797,9 +1797,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1821,7 +1821,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1843,7 +1843,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1865,7 +1865,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1886,7 +1886,7 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Animal",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Hideout Planet",
               "url": "https://rickandmortyapi.com/api/location/27"
@@ -1910,7 +1910,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1932,7 +1932,7 @@ export default {
           "type": "Robot-Crocodile hybrid",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -1949,7 +1949,7 @@ export default {
       {
           "id": 82,
           "name": "Cronenberg Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Cronenberg",
           "type": "",
           "gender": "Male",
@@ -1972,7 +1972,7 @@ export default {
       {
           "id": 83,
           "name": "Cronenberg Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Cronenberg",
           "type": "",
           "gender": "Male",
@@ -2000,7 +2000,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2022,7 +2022,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2045,7 +2045,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2069,7 +2069,7 @@ export default {
           "type": "Zigerion",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2205,7 +2205,7 @@ export default {
           "type": "Demon",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2222,7 +2222,7 @@ export default {
       {
           "id": 94,
           "name": "Diane Sanchez",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Female",
@@ -2244,12 +2244,12 @@ export default {
       {
           "id": 95,
           "name": "Dipper and Mabel Mortys",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2269,7 +2269,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2291,7 +2291,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2313,7 +2313,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2335,7 +2335,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2357,7 +2357,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2379,7 +2379,7 @@ export default {
           "status": "Dead",
           "species": "Disease",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Anatomy Park",
               "url": "https://rickandmortyapi.com/api/location/5"
@@ -2403,7 +2403,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2420,7 +2420,7 @@ export default {
       {
           "id": 103,
           "name": "Doofus Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
@@ -2446,9 +2446,9 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Shapeshifter",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2470,7 +2470,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2487,7 +2487,7 @@ export default {
       {
           "id": 106,
           "name": "Dr. Schmidt",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Game",
           "gender": "Male",
@@ -2536,7 +2536,7 @@ export default {
           "type": "Amoeba-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2558,7 +2558,7 @@ export default {
           "type": "Alien",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2641,7 +2641,7 @@ export default {
       {
           "id": 113,
           "name": "Eric Stoltz Mask Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
@@ -2663,7 +2663,7 @@ export default {
       {
           "id": 114,
           "name": "Ethan",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Cronenberg",
           "gender": "Male",
@@ -2713,7 +2713,7 @@ export default {
           "type": "Clone",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2735,7 +2735,7 @@ export default {
           "type": "Clone",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2757,7 +2757,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2780,7 +2780,7 @@ export default {
           "type": "Robot",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2802,7 +2802,7 @@ export default {
           "type": "Clone",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2824,7 +2824,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2846,11 +2846,11 @@ export default {
           "type": "Interdimensional gaseous being",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/122.jpeg",
@@ -2868,7 +2868,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2911,9 +2911,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Flansian",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2932,12 +2932,12 @@ export default {
       {
           "id": 126,
           "name": "Fleeb",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -2981,7 +2981,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3003,7 +3003,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3027,11 +3027,11 @@ export default {
           "type": "Gromflomite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/130.jpeg",
@@ -3049,7 +3049,7 @@ export default {
           "type": "Zombodian",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3099,7 +3099,7 @@ export default {
               "url": "https://rickandmortyapi.com/api/location/36"
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/133.jpeg",
@@ -3119,7 +3119,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3141,7 +3141,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3274,7 +3274,7 @@ export default {
           "type": "Parasite, Ghost",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3294,7 +3294,7 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Animal",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Resort Planet",
               "url": "https://rickandmortyapi.com/api/location/37"
@@ -3318,7 +3318,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3340,7 +3340,7 @@ export default {
           "type": "Gromflomite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3362,7 +3362,7 @@ export default {
           "type": "Eat shiter-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3384,7 +3384,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3406,7 +3406,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3423,7 +3423,7 @@ export default {
       {
           "id": 148,
           "name": "Goddess Beth",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Mytholog",
           "type": "",
           "gender": "Female",
@@ -3450,7 +3450,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3472,7 +3472,7 @@ export default {
           "type": "Gromflomite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3489,7 +3489,7 @@ export default {
       {
           "id": 151,
           "name": "Gwendolyn",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "Gazorpian reproduction robot",
           "gender": "Female",
@@ -3511,12 +3511,12 @@ export default {
       {
           "id": 152,
           "name": "Hammerhead Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Humanoid",
           "type": "Hammerhead-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3537,7 +3537,7 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Hamster in Butt World",
               "url": "https://rickandmortyapi.com/api/location/41"
@@ -3562,7 +3562,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3623,12 +3623,12 @@ export default {
       {
           "id": 157,
           "name": "Hole in the Wall Where the Men Can See it All",
-          "status": "unknown",
-          "species": "unknown",
+          "status": "Unknown",
+          "species": "Unknown",
           "type": "Hole",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3648,9 +3648,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Tuskfish",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3777,12 +3777,12 @@ export default {
       {
           "id": 164,
           "name": "Insurance Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3804,7 +3804,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -3846,7 +3846,7 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "Cat",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Earth (Replacement Dimension)",
               "url": "https://rickandmortyapi.com/api/location/20"
@@ -3981,7 +3981,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4307,12 +4307,12 @@ export default {
       {
           "id": 187,
           "name": "Juggling Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4400,7 +4400,7 @@ export default {
           "type": "Zigerion",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4464,9 +4464,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Tentacle alien",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4510,11 +4510,11 @@ export default {
           "type": "Gromflomite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/196.jpeg",
@@ -4554,7 +4554,7 @@ export default {
           "type": "Cyborg",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4574,7 +4574,7 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Larva alien",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Larva Alien's Planet",
               "url": "https://rickandmortyapi.com/api/location/51"
@@ -4595,12 +4595,12 @@ export default {
       {
           "id": 200,
           "name": "Lawyer Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4666,7 +4666,7 @@ export default {
           "type": "Snail alien",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4688,7 +4688,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4710,7 +4710,7 @@ export default {
           "type": "Tinymouth",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4732,7 +4732,7 @@ export default {
           "type": "Lizard-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4754,7 +4754,7 @@ export default {
           "type": "Alligator-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4778,7 +4778,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4795,12 +4795,12 @@ export default {
       {
           "id": 209,
           "name": "Long Sleeved Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4910,7 +4910,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4932,7 +4932,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -4996,7 +4996,7 @@ export default {
       {
           "id": 218,
           "name": "Mechanical Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "",
           "gender": "Male",
@@ -5018,7 +5018,7 @@ export default {
       {
           "id": 219,
           "name": "Mechanical Summer",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "",
           "gender": "Female",
@@ -5045,7 +5045,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5089,7 +5089,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5111,7 +5111,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5133,7 +5133,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5155,7 +5155,7 @@ export default {
           "type": "Conjoined twin",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5177,7 +5177,7 @@ export default {
           "type": "Sentient ant colony",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5243,7 +5243,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5282,12 +5282,12 @@ export default {
       {
           "id": 231,
           "name": "Morty Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5375,7 +5375,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5397,7 +5397,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5536,7 +5536,7 @@ export default {
       {
           "id": 242,
           "name": "Mr. Meeseeks",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Humanoid",
           "type": "Meeseeks",
           "gender": "Male",
@@ -5566,7 +5566,7 @@ export default {
           "type": "The Devil",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5588,11 +5588,11 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/244.jpeg",
@@ -5659,11 +5659,11 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/247.jpeg",
@@ -5681,7 +5681,7 @@ export default {
           "type": "Parasite, Refrigerator",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5698,16 +5698,16 @@ export default {
       {
           "id": 249,
           "name": "Mrs. Sanchez",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/249.jpeg",
@@ -5776,7 +5776,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5793,12 +5793,12 @@ export default {
       {
           "id": 253,
           "name": "Numbericon",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Numbericon",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5820,7 +5820,7 @@ export default {
           "type": "Octopus-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5864,7 +5864,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5886,7 +5886,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5908,7 +5908,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5930,7 +5930,7 @@ export default {
           "type": "Parasite, Pencil",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5952,7 +5952,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5969,12 +5969,12 @@ export default {
       {
           "id": 261,
           "name": "Photography Cyborg",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -5994,9 +5994,9 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Parasite, Dinosaur",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6018,7 +6018,7 @@ export default {
           "type": "Hairy alien",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6040,7 +6040,7 @@ export default {
           "type": "Conjoined twin",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6058,7 +6058,7 @@ export default {
           "id": 265,
           "name": "Pickle Rick",
           "status": "Alive",
-          "species": "unknown",
+          "species": "Unknown",
           "type": "Pickle",
           "gender": "Male",
           "origin": {
@@ -6080,11 +6080,11 @@ export default {
           "id": 266,
           "name": "Piece of Toast",
           "status": "Alive",
-          "species": "unknown",
+          "species": "Unknown",
           "type": "Bread",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6107,7 +6107,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6129,7 +6129,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6173,7 +6173,7 @@ export default {
           "type": "Zigerion",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6263,12 +6263,12 @@ export default {
       {
           "id": 274,
           "name": "Quantum Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6291,7 +6291,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6311,7 +6311,7 @@ export default {
           "status": "Dead",
           "species": "Animal",
           "type": "Rat",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Earth (Replacement Dimension)",
               "url": "https://rickandmortyapi.com/api/location/20"
@@ -6335,7 +6335,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6357,7 +6357,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6379,7 +6379,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6401,7 +6401,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6423,7 +6423,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6440,7 +6440,7 @@ export default {
       {
           "id": 282,
           "name": "Revolio Clockberg Jr.",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Gear-Person",
           "gender": "Male",
@@ -6469,7 +6469,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6486,12 +6486,12 @@ export default {
       {
           "id": 284,
           "name": "Rick Guilt Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6513,7 +6513,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6712,7 +6712,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6735,7 +6735,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6798,12 +6798,12 @@ export default {
       {
           "id": 298,
           "name": "Robot Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -6820,12 +6820,12 @@ export default {
       {
           "id": 299,
           "name": "Robot Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Robot",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7018,12 +7018,12 @@ export default {
       {
           "id": 308,
           "name": "Scropon",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Lobster-Alien",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7046,7 +7046,7 @@ export default {
           "type": "Scrotian",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7066,7 +7066,7 @@ export default {
       {
           "id": 310,
           "name": "Self-Congratulatory Jerry",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Mytholog",
           "type": "",
           "gender": "Male",
@@ -7093,7 +7093,7 @@ export default {
           "type": "Shimshamian",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7115,9 +7115,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7135,15 +7135,15 @@ export default {
           "id": 313,
           "name": "Shleemypants",
           "status": "Alive",
-          "species": "unknown",
+          "species": "Unknown",
           "type": "Omniscient being",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/313.jpeg",
@@ -7161,7 +7161,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7183,7 +7183,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7205,7 +7205,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7227,7 +7227,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7249,7 +7249,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7266,7 +7266,7 @@ export default {
       {
           "id": 319,
           "name": "Shmooglite Runner",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Animal",
           "gender": "Male",
@@ -7288,12 +7288,12 @@ export default {
       {
           "id": 320,
           "name": "Shnoopy Bloopers",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7315,7 +7315,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7337,7 +7337,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7381,7 +7381,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7403,7 +7403,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7448,7 +7448,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7470,7 +7470,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7496,7 +7496,7 @@ export default {
               "url": "https://rickandmortyapi.com/api/location/1"
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/329.jpeg",
@@ -7516,12 +7516,12 @@ export default {
       {
           "id": 330,
           "name": "Solicitor Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7539,7 +7539,7 @@ export default {
       {
           "id": 331,
           "name": "Squanchy",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Cat-like creature",
           "gender": "Male",
@@ -7590,7 +7590,7 @@ export default {
           "type": "Stair goblin",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7614,7 +7614,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7680,7 +7680,7 @@ export default {
           "type": "Zigerion",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7752,7 +7752,7 @@ export default {
           "type": "Superhuman",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7845,7 +7845,7 @@ export default {
               "url": "https://rickandmortyapi.com/api/location/20"
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/344.jpeg",
@@ -7866,7 +7866,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -7883,7 +7883,7 @@ export default {
       {
           "id": 346,
           "name": "Terry",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
@@ -7955,11 +7955,11 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/349.jpeg",
@@ -7972,7 +7972,7 @@ export default {
       {
           "id": 350,
           "name": "Thomas Lipkip",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
@@ -7997,9 +7997,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8021,7 +8021,7 @@ export default {
           "type": "Parasite, Unicorn lamb",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8153,7 +8153,7 @@ export default {
           "type": "Leprechaun",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8172,12 +8172,12 @@ export default {
       {
           "id": 359,
           "name": "Tortured Morty",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8241,9 +8241,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Traflorkian",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8289,7 +8289,7 @@ export default {
           "status": "Dead",
           "species": "Humanoid",
           "type": "Teenyverse inhabitant",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Kyle's Teenyverse",
               "url": "https://rickandmortyapi.com/api/location/50"
@@ -8376,16 +8376,16 @@ export default {
       {
           "id": 368,
           "name": "Truth Tortoise",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Animal",
           "type": "Omniscient being",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/368.jpeg",
@@ -8398,7 +8398,7 @@ export default {
       {
           "id": 369,
           "name": "Tusked Assassin",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Tuskfish",
           "gender": "Male",
@@ -8425,7 +8425,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8469,7 +8469,7 @@ export default {
           "type": "Hivemind",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8491,7 +8491,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8535,7 +8535,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8577,9 +8577,9 @@ export default {
           "status": "Dead",
           "species": "Alien",
           "type": "Parasite",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8596,12 +8596,12 @@ export default {
       {
           "id": 378,
           "name": "Wall Crawling Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Humanoid",
           "type": "Lizard-Person",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8618,12 +8618,12 @@ export default {
       {
           "id": 379,
           "name": "Wedding Bartender",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8640,16 +8640,16 @@ export default {
       {
           "id": 380,
           "name": "Weird Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/380.jpeg",
@@ -8667,11 +8667,11 @@ export default {
           "type": "Chair",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/381.jpeg",
@@ -8689,7 +8689,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8711,7 +8711,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8733,7 +8733,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8750,12 +8750,12 @@ export default {
       {
           "id": 385,
           "name": "Yellow Shirt Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8777,7 +8777,7 @@ export default {
           "type": "Drumbloxian",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8795,7 +8795,7 @@ export default {
       {
           "id": 387,
           "name": "Zarbadar's Mytholog",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Mytholog",
           "type": "",
           "gender": "Female",
@@ -8844,7 +8844,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8868,7 +8868,7 @@ export default {
           "type": "Floop Floopian",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8890,7 +8890,7 @@ export default {
           "type": "Parasite",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8912,7 +8912,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -8977,7 +8977,7 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Greebybobe",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Girvonesk",
               "url": "https://rickandmortyapi.com/api/location/68"
@@ -9202,7 +9202,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -9225,7 +9225,7 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "Teddy Bear",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Interdimensional Cable",
               "url": "https://rickandmortyapi.com/api/location/6"
@@ -9332,7 +9332,7 @@ export default {
       {
           "id": 411,
           "name": "Alien Mexican Armada",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "Mexican",
           "gender": "Male",
@@ -9354,10 +9354,10 @@ export default {
       {
           "id": 412,
           "name": "Giant Cat Monster",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Animal",
           "type": "Giant Cat Monster",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Interdimensional Cable",
               "url": "https://rickandmortyapi.com/api/location/6"
@@ -9376,7 +9376,7 @@ export default {
       {
           "id": 413,
           "name": "Old Women",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "Old Amazons",
           "gender": "Female",
@@ -9599,7 +9599,7 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "Eel",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Earth (Replacement Dimension)",
               "url": "https://rickandmortyapi.com/api/location/20"
@@ -9819,13 +9819,13 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "Doopidoo",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/433.jpeg",
@@ -9838,16 +9838,16 @@ export default {
       {
           "id": 434,
           "name": "Super Weird Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "image": "https://raw.githubusercontent.com/Laboratoria/rick-and-morty-images/master/images/434.jpeg",
@@ -9863,9 +9863,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "Pripudlian",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -9888,7 +9888,7 @@ export default {
           "status": "Alive",
           "species": "Animal",
           "type": "Monster",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Testicle Monster Dimension",
               "url": "https://rickandmortyapi.com/api/location/21"
@@ -10001,7 +10001,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10023,7 +10023,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10045,7 +10045,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10067,7 +10067,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10089,7 +10089,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10111,7 +10111,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10265,7 +10265,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10285,7 +10285,7 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
               "name": "Árboles Mentirosos",
               "url": "https://rickandmortyapi.com/api/location/75"
@@ -10311,7 +10311,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10333,7 +10333,7 @@ export default {
           "type": "Nano Alien",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10355,7 +10355,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10372,12 +10372,12 @@ export default {
       {
           "id": 458,
           "name": "Tax Attorney",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10399,7 +10399,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10421,7 +10421,7 @@ export default {
           "type": "Traflorkian",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10443,7 +10443,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10460,12 +10460,12 @@ export default {
       {
           "id": 462,
           "name": "Teleportation's Responsible Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10487,7 +10487,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10509,7 +10509,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10531,7 +10531,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10553,7 +10553,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10575,7 +10575,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10597,7 +10597,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10614,12 +10614,12 @@ export default {
       {
           "id": 469,
           "name": "Morphizer-XE Customer Support",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Alien",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10641,7 +10641,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10663,7 +10663,7 @@ export default {
           "type": "",
           "gender": "Genderless",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10707,7 +10707,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10729,7 +10729,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10751,7 +10751,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10773,7 +10773,7 @@ export default {
           "type": "Human with a flower in his head",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10795,7 +10795,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10817,7 +10817,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10839,7 +10839,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10861,7 +10861,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10878,12 +10878,12 @@ export default {
       {
           "id": 481,
           "name": "Retired General Rick",
-          "status": "unknown",
+          "status": "Unknown",
           "species": "Human",
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10905,7 +10905,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10927,7 +10927,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10949,7 +10949,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10971,7 +10971,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -10993,7 +10993,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11015,7 +11015,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11037,7 +11037,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11059,7 +11059,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11081,7 +11081,7 @@ export default {
           "type": "",
           "gender": "Male",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11103,7 +11103,7 @@ export default {
           "type": "",
           "gender": "Female",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
@@ -11123,9 +11123,9 @@ export default {
           "status": "Alive",
           "species": "Alien",
           "type": "",
-          "gender": "unknown",
+          "gender": "Unknown",
           "origin": {
-              "name": "unknown",
+              "name": "Unknown",
               "url": ""
           },
           "location": {
