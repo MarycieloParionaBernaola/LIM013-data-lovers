@@ -85,7 +85,6 @@ const dataResult = [
   }
 ];
 
-
 describe('filterData', () => {
   it('debería ser un objeto', () => {
     expect(typeof filterData).toBe('object');
