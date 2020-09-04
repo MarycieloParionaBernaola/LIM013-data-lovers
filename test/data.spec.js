@@ -99,6 +99,10 @@ describe('filterData', () => {
     expect(filterData.byProperty(dataTest, 'species', 'Human')).toEqual([dataResult[0]]);
     });
 
+    it('debería retornar un array para "dataTest", "species", "Unknown"', () => {
+      expect(filterData.byProperty(dataTest, 'species', 'Unknown')).toEqual([dataResult[1]]);
+      });
+
     it('debería arrojar cuando se invoca sin parámetros', () => {
       expect(() => filterData.byProperty()).toThrow(Error);
     });
