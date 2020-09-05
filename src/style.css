@@ -47,7 +47,7 @@ header {
     align-items: center; 
 }
 
-.brand-title h1 {
+.brand-title h1, label {
     font-weight: bold; 
     font-size: 3rem; 
     padding: 1rem;
