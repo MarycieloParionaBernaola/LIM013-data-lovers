@@ -65,7 +65,7 @@ const dataTest = [
   }
 ];
 
-const dataResult = [
+const dataResultOne = [
   {
     "id": 1,
     "name": "Rick Sanchez",
@@ -73,8 +73,10 @@ const dataResult = [
     "species": "Human",
     "type": "",
     "gender": "Male",
-  },
+  }
+];
 
+const dataResultTwo = [
   {
     "id": 25,
     "name": "Armothy",
@@ -83,47 +85,50 @@ const dataResult = [
     "type": "Self-aware arm",
     "gender": "Male",
   }
-];
+]
 
 describe('filterData', () => {
-  it('debería ser un objeto', () => {
+
+  it('should be an object', () => {
     expect(typeof filterData).toBe('object');
   });
 
   describe('filterData.byProperty', () => {
-    it('debería ser una función', () => {
+
+    it('should be a function', () => {
       expect(typeof filterData.byProperty).toBe('function');
     });
     
-    it('debería retornar un array para "dataTest", "species", "Human"', () => {
-    expect(filterData.byProperty(dataTest, 'species', 'Human')).toEqual([dataResult[0]]);
+    it('should return an array for "dataTest", "species", "Human"', () => {
+    expect(filterData.byProperty(dataTest, 'species', 'Human')).toEqual(dataResultOne);
     });
 
-    it('debería retornar un array para "dataTest", "species", "Unknown"', () => {
-      expect(filterData.byProperty(dataTest, 'species', 'Unknown')).toEqual([dataResult[1]]);
+    it('should return an array for "dataTest", "species", "Unknown"', () => {
+      expect(filterData.byProperty(dataTest, 'species', 'Unknown')).toEqual(dataResultTwo);
       });
 
-    it('debería arrojar cuando se invoca sin parámetros', () => {
-      expect(() => filterData.byProperty()).toThrow(Error);
+    it('should throw an error if called without arguments', () => {
+      expect(filterData.byProperty).toThrow('All parameters must be filled');
     });
 
   });
 
   describe('filterData.searchByName', () => {
-    it('debería ser una función', () => {
+
+    it('should be a function', () => {
       expect(typeof filterData.searchByName).toBe('function');
     });
 
-    it ('debería retornar un array "dataTest", "name", "rick"', () => {
-      expect(filterData.searchByName(dataTest, 'name', 'rick')).toEqual([dataResult[0]]);
+    it ('should return an array for "dataTest", "name", "rick"', () => {
+      expect(filterData.searchByName(dataTest, 'name', 'rick')).toEqual(dataResultOne);
     });
 
-    it ('debería retornar un array "dataTest", "name", "Armothy"', () => {
-      expect(filterData.searchByName(dataTest, 'name', 'Armothy')).toEqual([dataResult[1]]);
+    it ('should return an array for "dataTest", "name", "Armothy"', () => {
+      expect(filterData.searchByName(dataTest, 'name', 'Armothy')).toEqual(dataResultTwo);
     });
 
-    it('debería arrojar cuando se invoca sin parámetros', () => {
-      expect(() => filterData.searchByName()).toThrow(Error);
+    it('should throw an error if called without an argument', () => {
+      expect(() => filterData.searchByName(dataTest, 'name')).toThrow(Error);
     });
 
   });
