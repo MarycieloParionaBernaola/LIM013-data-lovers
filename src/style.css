@@ -24,7 +24,11 @@ header {
     background: linear-gradient(90deg, #fffb00 0%, #17dcff 100%);
     width: 100%;
     display: flex; 
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
+    /*position: -webkit-sticky;*/
+    position: sticky;
+    top: 0px; 
+    
 }
 
 .navbar {
@@ -33,6 +37,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-flow: row wrap; 
+
 }
 
 .brand-title {
@@ -162,6 +167,8 @@ main {
     align-content: center; 
     background-color: #222;
     padding: 1rem 0rem; 
+    position: sticky;
+    top: 100px; 
 
 }
 

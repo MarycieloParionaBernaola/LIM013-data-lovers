@@ -1,6 +1,6 @@
 import data from './data/rickandmorty/rickandmorty.js';
-import { filterDataByProperty } from './data.js';
-import { sortDataByName } from './data.js';
+import {filterData} from './data.js';
+// import { sortDataByName } from './data.js';
 
 
 const toggleButton = document.getElementById('toggle-button');
@@ -47,8 +47,9 @@ const dataRickAndMorty = data.results;
     const searchBar = document.getElementById('search-bar');
     searchBar.addEventListener('keyup', (event) => {
         const inputName = event.target.value; 
-        //console.log(inputName);
-        const searchByName = filterDataByProperty(dataRickAndMorty, 'name', inputName);
+        // console.log(inputName);
+        const searchByName = filterData.searchByName(dataRickAndMorty, 'name', inputName);
+        // console.log(searchByName);
         displayCharacters(searchByName);
     })
     
@@ -58,11 +59,12 @@ const dataRickAndMorty = data.results;
     const filterBySpecies = document.querySelector('.filter-by-species');
     filterBySpecies.addEventListener('change', (event) => {
         const specieSelected = event.target.value;
-        const filter = filterDataByProperty(dataRickAndMorty, 'species', specieSelected);
+        // console.log(typeof(specieSelected));
+        const filter = filterData.byProperty(dataRickAndMorty, 'species', specieSelected);
         displayCharacters(filter);
     })
 
-
+/*
     // Sort by "A-Z" or "Z-A"
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
@@ -89,3 +91,4 @@ const dataRickAndMorty = data.results;
             `
     } 
     displayFooter();
+    */
