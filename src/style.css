@@ -25,8 +25,6 @@ header {
     width: 100%;
     display: flex; 
     flex-flow: row wrap;
-    /*position: -webkit-sticky;*/
-    position: sticky;
     top: 0px; 
     
 }
@@ -68,6 +66,7 @@ header {
 
 .navbar-links li{
     list-style: none;
+    border-radius: 1rem; 
 }
 
 .navbar-links li a {
@@ -79,7 +78,8 @@ header {
 }
 
 .navbar-links li:hover {
-    background-color: greenyellow;
+   /*  background-color: greenyellow; */
+    border: 1px solid white; 
 }
 
 .toggle-button {
@@ -167,9 +167,9 @@ main {
     align-content: center; 
     background-color: #222;
     padding: 1rem 0rem; 
+    position: -webkit-sticky; 
     position: sticky;
-    top: 100px; 
-
+    top: 0;
 }
 
 .fixed-bar form {
@@ -308,6 +308,7 @@ footer {
 
 .social {
     width: 50%; 
+    align-self: center; 
 }
 
 
