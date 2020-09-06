@@ -69,8 +69,20 @@ const dataRickAndMorty = data.results;
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
-        const sort = sortDataByName(dataRickAndMorty, sortSelected);
-        displayCharacters(sort);
+        switch (sortSelected) {
+            case 'A-Z': 
+            const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
+            displayCharacters(sortAscending);
+            break;
+
+            case 'Z-A':
+            const SortDescending = sortDataByName(dataRickAndMorty, sortSelected);
+            displayCharacters(SortDescending);
+            break;
+
+            default: 
+            console.log(`The option selected is out of ${sortSelected}.`);
+        }
     });
     
         
