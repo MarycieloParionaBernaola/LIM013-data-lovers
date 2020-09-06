@@ -1,7 +1,5 @@
 import data from './data/rickandmorty/rickandmorty.js';
-<<<<<<< HEAD
 import { computeStats } from './data.js';
-=======
 import {statisticsPercentage} from './data.js';
 import {statisticsValue} from './data.js';
 
@@ -20,7 +18,6 @@ const displayCuriosities = () =>{
 } 
 displayCuriosities();
 
->>>>>>> upstream/master
 
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');

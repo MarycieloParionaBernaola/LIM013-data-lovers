@@ -1,10 +1,6 @@
 import data from './data/rickandmorty/rickandmorty.js';
 import { filterData } from './data.js';
-<<<<<<< HEAD
-// import { sortDataByName } from './data.js';
-=======
 import { sortDataByName } from './data.js';
->>>>>>> upstream/master
 
 
 const toggleButton = document.getElementById('toggle-button');
