@@ -63,21 +63,25 @@ export const sortDataByName = {
 */
 
 export const computeStats = (data, property, type) => {
-  const specificArray = data.map( item => item[property])
-  const total = specificArray.length;
-  //console.log(specificArray)
-  //console.log (total);
-  let typeArray = [];
-  specificArray.forEach(item => {
-    if (item == type) {
-        typeArray.push(item);
-      }
-    });
-  //console.log(typeArray);
-  const y = typeArray.length;
-  const percentage = Math.round((y/total)*100);
-  //console.log(percentage);
-  return percentage;
+  if (data !== undefined && property !== undefined && type !== undefined ){
+    const specificArray = data.map( item => item[property])
+    const total = specificArray.length;
+    //console.log(specificArray)
+    //console.log (total);
+    let typeArray = [];
+    specificArray.forEach(item => {
+      if (item == type) {
+          typeArray.push(item);
+        }
+      });
+    //console.log(typeArray);
+    const y = typeArray.length;
+    const percentage = Math.round((y/total)*100);
+    //console.log(percentage);
+    return percentage;
+  } else {
+    throw Error('All parameters must be filled');
+  }
 
   };
 

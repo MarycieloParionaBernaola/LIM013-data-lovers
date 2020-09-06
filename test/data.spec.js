@@ -123,10 +123,9 @@ describe('computeStats', () => {
   it ('should return a value for the follow parameters "dataTest", "gender", "Male"', () => {
     expect(computeStats(dataTest, 'gender', 'Male')).toBe(75);
   });
-  /*
-  it ('should not return a value for follow parameters "dataTest", "gender", "unknown"', () => {
-    expect(computeStats(dataTest, 'gender','unknown')).toBe(false);
-  })
-  */
- 
+  
+  it ('should not return a value for follow parameters "dataTest", "gender"', () => {
+    expect(() => computeStats(dataTest, 'gender')).toThrow(Error);
+  });
+
 })
