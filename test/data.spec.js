@@ -1,6 +1,7 @@
 // Import function `filterData`
 
-import {filterData} from '../src/data.js';
+import { filterData } from '../src/data.js';
+import { computeStats } from '../src/data.js';
 
 const dataTest = [
   {
@@ -73,7 +74,7 @@ describe('filterData', () => {
     it('should be a function', () => {
       expect(typeof filterData.byProperty).toBe('function');
     });
-    
+  
     it('should return an array for "dataTest", "species", "Human"', () => {
     expect(filterData.byProperty(dataTest, 'species', 'Human')).toEqual(dataResultOne);
     });
@@ -109,3 +110,23 @@ describe('filterData', () => {
   });
 
 });
+
+describe('computeStats', () => {
+  it('should be a function', () => {
+    expect(typeof computeStats).toBe('function');
+  });
+
+  it ('should return a value for the follow parameters "dataTest", "gender", "Female"', () => {
+    expect(computeStats(dataTest,'gender','Female')).toBe(25);
+  });
+
+  it ('should return a value for the follow parameters "dataTest", "gender", "Male"', () => {
+    expect(computeStats(dataTest, 'gender', 'Male')).toBe(75);
+  });
+  /*
+  it ('should not return a value for follow parameters "dataTest", "gender", "unknown"', () => {
+    expect(computeStats(dataTest, 'gender','unknown')).toBe(false);
+  })
+  */
+ 
+})

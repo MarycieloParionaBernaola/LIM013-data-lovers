@@ -61,3 +61,51 @@ export const sortDataByName = {
   }
 } 
 */
+
+export const computeStats = (data, property, type) => {
+  const specificArray = data.map( item => item[property])
+  const total = specificArray.length;
+  //console.log(specificArray)
+  //console.log (total);
+  let typeArray = [];
+  specificArray.forEach(item => {
+    if (item == type) {
+        typeArray.push(item);
+      }
+    });
+  //console.log(typeArray);
+  const y = typeArray.length;
+  const percentage = Math.round((y/total)*100);
+  //console.log(percentage);
+  return percentage;
+
+  };
+
+
+/*
+  const expr = type;
+
+  switch(expr) {
+    case 'Female':
+      let femaleArray = []
+      specificArray.forEach(item => (item == 'Female') ? femaleArray.push(item):0);
+      console.log(femaleArray);
+      const z = femaleArray.length;
+      const per =  Math.round((z/total)*100);
+      console.log(per);
+      console.log(z);
+     
+      break;
+    case 'Male':
+      let maleArray = []
+      propertyValue.forEach(item => (item == 'Male') ? maleArray.push(item):0);
+      console.log(maleArray);
+      const w = maleArray.length;
+      console.log(w);
+      console.log(typeof w);
+      const percentage =  Math.round((w/total)*100);
+      console.log(percentage)
+      break;
+  }
+*/
+

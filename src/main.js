@@ -1,5 +1,5 @@
 import data from './data/rickandmorty/rickandmorty.js';
-import {filterData} from './data.js';
+import { filterData } from './data.js';
 // import { sortDataByName } from './data.js';
 
 
