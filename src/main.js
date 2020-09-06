@@ -1,6 +1,6 @@
 import data from './data/rickandmorty/rickandmorty.js';
-import {filterData} from './data.js';
-// import { sortDataByName } from './data.js';
+import { filterData } from './data.js';
+import { sortDataByName } from './data.js';
 
 
 const toggleButton = document.getElementById('toggle-button');
@@ -64,12 +64,12 @@ const dataRickAndMorty = data.results;
         displayCharacters(filter);
     })
 
-/*
+
     // Sort by "A-Z" or "Z-A"
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
-        const sort = sortDataByName.sortData(dataRickAndMorty,'name', sortSelected);
+        const sort = sortDataByName(dataRickAndMorty, sortSelected);
         displayCharacters(sort);
     });
     
@@ -82,7 +82,7 @@ const dataRickAndMorty = data.results;
                <a href="https://www.facebook.com/RickandMorty/" target="_blank"><img src="images/facebook.png"></a>
                <a href="https://www.instagram.com/rickandmorty/" target="_blank"><img src="images/instagram.png"></a>
                <a href="https://twitter.com/rickandmorty" target="_blank"><img src="images/twitter.png"></a>
-               <a href="#"><img src="images/shop.png" target="_blank"></a
+               <a href="#"><img src="images/shop.png" target="_blank"></a>
                <a href="https://ko-fi.com/" target="_blank"><img src="images/coffee.png"></a>
             </div>
             <div class="authors">
@@ -91,4 +91,3 @@ const dataRickAndMorty = data.results;
             `
     } 
     displayFooter();
-    */

@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: #222; 
+    color: black; 
     text-decoration: none; 
     background-color: white; 
     width: 100%;
@@ -14,11 +14,6 @@ body {
     flex-flow: row wrap;
 }
 
-/* .container {
-    width: 100%;
-    display: flex; 
-    flex-flow: row wrap;
-} */
 
 header {
     background: linear-gradient(90deg, #fffb00 0%, #17dcff 100%);
@@ -53,7 +48,7 @@ header {
 
 
 .main-icon{
-    height: 80px;
+    height: 4.5rem;
 }
 
 .navbar-links ul {
@@ -78,8 +73,7 @@ header {
 }
 
 .navbar-links li:hover {
-   /*  background-color: greenyellow; */
-    border: 1px solid white; 
+    font-weight: bold; 
 }
 
 .toggle-button {
@@ -157,6 +151,7 @@ main {
     text-align: center;  
     padding: 5rem;  
     line-height: 3rem;  
+    color: #222; 
 }
 
 .fixed-bar {
@@ -165,7 +160,7 @@ main {
     flex-flow: row wrap; 
     justify-content: center; 
     align-content: center; 
-    background-color: #222;
+    background-color: black;
     padding: 1rem 0rem; 
     position: -webkit-sticky; 
     position: sticky;
@@ -231,7 +226,7 @@ li {
     width: 25%;
     margin: 2rem; 
     background-color: white; 
-    color: #222; 
+    color: black;
     border-radius: 1rem;
     -moz-border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -241,7 +236,6 @@ li {
     align-items: center;
     line-height: 2rem;  
     border: 1px solid #222; 
-
 }
 
 
@@ -286,6 +280,70 @@ li {
     padding: 3rem; 
 }
 
+/* .curiosities-card {
+    width: 25%;
+    margin: 2rem; 
+    background-color: white; 
+    color: #222; 
+    border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    display: flex; 
+    flex-flow: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    line-height: 2rem;  
+    border: 1px solid #222;
+} */
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin: 2rem; 
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
 
 footer {
     width: 100%;
@@ -293,8 +351,8 @@ footer {
     flex-wrap: wrap; 
     flex-direction: column; 
     align-content: center; 
-    background-color: #222;
-    padding: 1rem; 
+    background-color: black;
+    padding: 0.5rem; 
     color: #F1C40F;
 }
 
@@ -318,7 +376,7 @@ footer {
 
 
 .social a img {
-    width: 3rem;
+    width: 45px;
 }
 
 
@@ -333,6 +391,7 @@ footer {
     letter-spacing: 0.2rem;
     margin-bottom: 1rem; 
     color: white; 
+    text-align: center; 
 }
 
 
