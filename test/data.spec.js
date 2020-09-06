@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 // Import function `filterData`
 
 import { filterData } from '../src/data.js';
 import { computeStats } from '../src/data.js';
-=======
-import {filterData} from '../src/data.js';
->>>>>>> upstream/master
 
 const dataTest = [
   {
@@ -115,7 +111,6 @@ describe('filterData', () => {
 
 });
 
-<<<<<<< HEAD
 describe('computeStats', () => {
   it('should be a function', () => {
     expect(typeof computeStats).toBe('function');
@@ -134,7 +129,6 @@ describe('computeStats', () => {
   });
 
 })
-=======
 
 
 
@@ -480,4 +474,3 @@ describe('statisticsValue', () => {
       expect(statisticsValue('name', 'Morty', dataRickAndMorty)).toBe(2);
   });
 });
->>>>>>> upstream/master
