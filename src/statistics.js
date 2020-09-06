@@ -1,7 +1,6 @@
 import data from './data/rickandmorty/rickandmorty.js';
-import { computeStats } from './data.js';
-import {statisticsPercentage} from './data.js';
-import {statisticsValue} from './data.js';
+import { statisticsPercentage } from './data.js';
+import { statisticsValue } from './data.js';
 
 
 const dataRickAndMorty = data.results;

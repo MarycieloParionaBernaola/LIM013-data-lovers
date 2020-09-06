@@ -53,32 +53,15 @@ export const sortDataByName = (data, sortOrder) => {
       }
   })};
 
-// Statistics Percentage function
-export const statisticsPercentage = (key, value, data) => {
-  let total = data.length;
+
+// Statistics Value function
+export const statisticsValue = (key, value, data) => {
   let items = data.filter(element => element[key].indexOf(value) > -1);
-  let result = (items.length * 100) / total;
-  return Math.round(result);
+  return items.length;
 };
 
-<<<<<<< HEAD
-    if (sortBy === "name" && sortOrder === "Z-A"){
-      data.sort((a,b) =>{
-        if(a.name > b.name) {
-          return -1; 
-        }
-        if (a.name < b.name){
-          return 1; 
-        }
-        return 0; 
-      })
-      return data; 
-    }
-  }
-} 
-*/
-
-export const computeStats = (data, property, type) => {
+//Statistics Percentage function
+export const statisticsPercentage = (data, property, type) => {
   if (data !== undefined && property !== undefined && type !== undefined ){
     const specificArray = data.map( item => item[property])
     const total = specificArray.length;
@@ -102,37 +85,6 @@ export const computeStats = (data, property, type) => {
   };
 
 
-/*
-  const expr = type;
 
-  switch(expr) {
-    case 'Female':
-      let femaleArray = []
-      specificArray.forEach(item => (item == 'Female') ? femaleArray.push(item):0);
-      console.log(femaleArray);
-      const z = femaleArray.length;
-      const per =  Math.round((z/total)*100);
-      console.log(per);
-      console.log(z);
-     
-      break;
-    case 'Male':
-      let maleArray = []
-      propertyValue.forEach(item => (item == 'Male') ? maleArray.push(item):0);
-      console.log(maleArray);
-      const w = maleArray.length;
-      console.log(w);
-      console.log(typeof w);
-      const percentage =  Math.round((w/total)*100);
-      console.log(percentage)
-      break;
-  }
-*/
 
-=======
-// Statistics Value function
-export const statisticsValue = (key, value, data) => {
-  let items = data.filter(element => element[key].indexOf(value) > -1);
-  return items.length;
-};
->>>>>>> upstream/master
+
