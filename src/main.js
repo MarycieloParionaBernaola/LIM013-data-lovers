@@ -1,6 +1,10 @@
 import data from './data/rickandmorty/rickandmorty.js';
 import { filterData } from './data.js';
+<<<<<<< HEAD
 // import { sortDataByName } from './data.js';
+=======
+import { sortDataByName } from './data.js';
+>>>>>>> upstream/master
 
 
 const toggleButton = document.getElementById('toggle-button');
@@ -64,13 +68,25 @@ const dataRickAndMorty = data.results;
         displayCharacters(filter);
     })
 
-/*
+
     // Sort by "A-Z" or "Z-A"
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
-        const sort = sortDataByName.sortData(dataRickAndMorty,'name', sortSelected);
-        displayCharacters(sort);
+        switch (sortSelected) {
+            case 'A-Z': 
+            const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
+            displayCharacters(sortAscending);
+            break;
+
+            case 'Z-A':
+            const SortDescending = sortDataByName(dataRickAndMorty, sortSelected);
+            displayCharacters(SortDescending);
+            break;
+
+            default: 
+            console.log(`The option selected is out of ${sortSelected}.`);
+        }
     });
     
         
@@ -82,7 +98,7 @@ const dataRickAndMorty = data.results;
                <a href="https://www.facebook.com/RickandMorty/" target="_blank"><img src="images/facebook.png"></a>
                <a href="https://www.instagram.com/rickandmorty/" target="_blank"><img src="images/instagram.png"></a>
                <a href="https://twitter.com/rickandmorty" target="_blank"><img src="images/twitter.png"></a>
-               <a href="#"><img src="images/shop.png" target="_blank"></a
+               <a href="#"><img src="images/shop.png" target="_blank"></a>
                <a href="https://ko-fi.com/" target="_blank"><img src="images/coffee.png"></a>
             </div>
             <div class="authors">
@@ -91,4 +107,3 @@ const dataRickAndMorty = data.results;
             `
     } 
     displayFooter();
-    */

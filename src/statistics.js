@@ -1,5 +1,26 @@
 import data from './data/rickandmorty/rickandmorty.js';
+<<<<<<< HEAD
 import { computeStats } from './data.js';
+=======
+import {statisticsPercentage} from './data.js';
+import {statisticsValue} from './data.js';
+
+
+const dataRickAndMorty = data.results;
+
+// Display Curiosities
+const displayCuriosities = () =>{
+    const curiousCard = document.getElementById('curiosities-card-back');
+    const percentage = statisticsPercentage;
+    const value = statisticsValue;
+    curiousCard.innerHTML= 
+        `<p> Existen <b>${value('name', 'Rick', dataRickAndMorty)} Ricks </b> es decir el <b>${percentage('name', 'Rick', dataRickAndMorty)}% </b> de todos los personajes.</p>
+        <p> Existen <b>${value('name', 'Morty', dataRickAndMorty)} Mortys </b> es decir el <b>${percentage('name', 'Morty', dataRickAndMorty)}% </b> de todos los personajes.</p>
+        `;
+} 
+displayCuriosities();
+
+>>>>>>> upstream/master
 
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');

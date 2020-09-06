@@ -27,25 +27,41 @@ export const filterData = {
   }
 }
 
-/*
-// Sort object 
-export const sortDataByName = {
 
-  sortData: (data, sortBy, sortOrder) => {       
+// Sort function
+export const sortDataByName = (data, sortOrder) => {
+  const dataCloned = [...data];
+  return dataCloned.sort((a, b) => {
+      const nameA = a.name.toUpperCase();
+      const nameB = b.name.toUpperCase();
+      if (sortOrder === 'A-Z') {
+          if (nameA < nameB) {
+              return -1;
+          } else if (nameA > nameB) {
+              return 1;
+          } else {
+              return 0;
+          }
+      } else {
+          if (nameA > nameB) {
+              return -1;
+          } else if (nameA < nameB) {
+              return 1;
+          } else {
+              return 0;
+          }
+      }
+  })};
 
-    if (sortBy === "name" && sortOrder === "A-Z"){
-      data.sort((a,b)=>{
-        if (a.name < b.name){
-          return -1; 
-        }
-        if (a.name > b.name){
-          return 1; 
-        }
-        return 0; 
-      })
-      return data;
-    }
+// Statistics Percentage function
+export const statisticsPercentage = (key, value, data) => {
+  let total = data.length;
+  let items = data.filter(element => element[key].indexOf(value) > -1);
+  let result = (items.length * 100) / total;
+  return Math.round(result);
+};
 
+<<<<<<< HEAD
     if (sortBy === "name" && sortOrder === "Z-A"){
       data.sort((a,b) =>{
         if(a.name > b.name) {
@@ -113,3 +129,10 @@ export const computeStats = (data, property, type) => {
   }
 */
 
+=======
+// Statistics Value function
+export const statisticsValue = (key, value, data) => {
+  let items = data.filter(element => element[key].indexOf(value) > -1);
+  return items.length;
+};
+>>>>>>> upstream/master
