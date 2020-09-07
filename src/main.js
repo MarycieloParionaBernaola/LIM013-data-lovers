@@ -30,10 +30,10 @@ const dataRickAndMorty = data.results;
                 <img class = 'photo' src = "${character.image}">
                 </div>
             <div = 'information-column'>
-                <p><b>Specie:</b> ${character.species}</p>
-                <p><b>Gender:</b> ${character.gender}</p>
-                <p><b>Origin:</b> ${character.origin.name}</p>
-                <p><b>Last location:</b> ${character.location.name}</p>
+                <p class="info"><b>Specie:</b> ${character.species}</p>
+                <p class="info"><b>Gender:</b> ${character.gender}</p>
+                <p class="info"><b>Origin:</b> ${character.origin.name}</p>
+                <p class="info"><b>Last location:</b> ${character.location.name}</p>
             </div>
             </li>
             `;
@@ -94,7 +94,7 @@ const dataRickAndMorty = data.results;
                <a href="https://www.facebook.com/RickandMorty/" target="_blank"><img src="images/facebook.png"></a>
                <a href="https://www.instagram.com/rickandmorty/" target="_blank"><img src="images/instagram.png"></a>
                <a href="https://twitter.com/rickandmorty" target="_blank"><img src="images/twitter.png"></a>
-               <a href="#"><img src="images/shop.png" target="_blank"></a>
+               <a href="https://www.adultswim.com/misc/rick-and-morty-products/" target="_blank"><img src="images/shop.png" target="_blank"></a>
                <a href="https://ko-fi.com/" target="_blank"><img src="images/coffee.png"></a>
             </div>
             <div class="authors">

@@ -8,6 +8,7 @@
     <title>Rick and Morty</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -33,17 +34,43 @@
         </nav>
       </header>
       <main>
+        <div class="intro-container">
+          <h2>Did you know?</h2>
+          <p><strong>Discover some interesting facts about Rick and Morty series.</strong></p>
+        </div>
         <div class="cards-container">
-        <div id="curiosities-card" class="curiosities-card flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <p>Characters curiosities</p>
-            </div>
-            <div id="curiosities-card-back" class="flip-card-back">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="rotate"><p>Rick and Morty</p><img src="images/rickandmortycard.png" class="main-icon"></div>
+              </div>
+              <div id="rickandmorty-card-back" class="flip-card-back">
+              </div>
             </div>
           </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Genders</p><img src="images/gender1.png" class="main-icon">
+              </div>
+              <div id="gender-card-back" class="flip-card-back">
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="rotate"><p>Random <br> facts</p><img src="images/random1.png" class="main-icon"></div>
+              </div>
+              <div id="random-card-back" class="flip-card-back">
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
       </main>
   
       <footer id="footer">
