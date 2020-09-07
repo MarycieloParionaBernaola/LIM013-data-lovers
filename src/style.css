@@ -143,6 +143,9 @@ header {
         width: 300px;
     }
 
+    .social a img {
+        width: 30px;
+    }
 } 
 
 main {
@@ -405,7 +408,7 @@ footer {
 
 
 .social a img {
-    width: 45px;
+    max-width: 45px;
 }
 
 

@@ -25,11 +25,12 @@ const displayCuriosities = () =>{
     `;
     randomCard.innerHTML= 
     `<h3> Did you know...</h3>
-    <p> There are <b>${value('name', 'Rick', dataRickAndMorty)} Ricks </b> es decir el <b>${percentage(dataRickAndMorty, 'name', 'Rick')}% </b> de todos los personajes.</p></br>
-    <p> There are <b>${value('name', 'Morty', dataRickAndMorty)} Mortys </b> es decir el <b>${percentage(dataRickAndMorty, 'name', 'Morty')}% </b> de todos los personajes.</p>
+    <p> There are <b>${value('species', 'Human', dataRickAndMorty)} humans </b> this equals <b>${percentage(dataRickAndMorty, 'species', 'Human')}% </b> of all the characters.</p></br>
+    <p> There are <b>${value('status', 'Dead', dataRickAndMorty)} dead </b> this equals <b>${percentage(dataRickAndMorty, 'status', 'Dead')}% </b> of all the characters.</p>
     <img src="images/rickandmortyicon.png" class="main-icon">
     `;
 } 
+
 displayCuriosities();
 
 
