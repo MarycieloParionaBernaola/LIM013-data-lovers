@@ -65,18 +65,18 @@ export const statisticsPercentage = (data, property, type) => {
   if (data !== undefined && property !== undefined && type !== undefined ){
     const specificArray = data.map( item => item[property])
     const total = specificArray.length;
-    //console.log(specificArray)
-    //console.log (total);
+    // console.log(specificArray);
+    // console.log (total);
     let typeArray = [];
     specificArray.forEach(item => {
-      if (item == type) {
+      if (item.includes(type)) {
           typeArray.push(item);
         }
       });
-    //console.log(typeArray);
+    // console.log(typeArray);
     const y = typeArray.length;
     const percentage = Math.round((y/total)*100);
-    //console.log(percentage);
+    // console.log(percentage);
     return percentage;
   } else {
     throw Error('All parameters must be filled');
