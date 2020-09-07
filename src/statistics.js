@@ -32,7 +32,7 @@ const displayCuriosities = () =>{
 } 
 displayCuriosities();
 
-/* 
+
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');
 
@@ -41,12 +41,6 @@ const navbarLinks = document.getElementById('navbar-links');
         toggleButton.addEventListener('click', () => {
             navbarLinks.classList.toggle('active');
         })
-
-
-
-    // Function computeStats
-
-    computeStats(dataRickAndMorty, 'gender', 'Female'); */
 
     // Display footer
     const displayFooter = () =>{
