@@ -69,6 +69,13 @@ const dataRickAndMorty = data.results;
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
+        const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
+        displayCharacters(sortAscending);
+    });
+/*
+    const sortBy = document.querySelector('.sort-by');
+    sortBy.addEventListener('change', (event) => {
+        const sortSelected = event.target.value;
         switch (sortSelected) {
             case 'A-Z': 
             const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
@@ -84,7 +91,7 @@ const dataRickAndMorty = data.results;
             console.log(`The option selected is out of ${sortSelected}.`);
         }
     });
-    
+*/   
         
     // Display footer
     const displayFooter = () =>{
