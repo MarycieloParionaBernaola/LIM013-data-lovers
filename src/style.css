@@ -93,7 +93,7 @@ header {
     height: 3px;
     width: 100%;
     background-color: #222;
-    border-radius: 10px ;
+    border-radius: 8px ;
 }
 
 @media (max-width:480px) {
@@ -137,12 +137,12 @@ header {
     .navbar-links.active{
         display: flex;
     }
-
+    /*
     .card{
         height: 620px;
         width: 300px;
     }
-
+    */
     .social a img {
         width: 30px;
     }
@@ -214,14 +214,14 @@ li {
     list-style-type: none;
 } 
 
-@media (min-width:1254px){
+/*@media (min-width:1254px){
     .card{
         height: 760px;
         width: 500px;
     }
 
 }
-
+*/
 .cards-container {
     display: flex; 
     width: 100%;
@@ -240,8 +240,8 @@ li {
 
 
 .card{
-    min-height: 600px;
-    min-width: 300px;
+    height: 600px;
+    width: 300px;
     margin: 2rem; 
     background-color: white; 
     color: black;  
@@ -310,7 +310,7 @@ li {
     background-color: transparent;
     width: 350px;
     height: 360px;
-    margin: 2rem; 
+    margin: 4rem; 
     
     /* border: 1px solid #f1f1f1; */
 /*     perspective: 1000px; /* Remove this if you don't want the 3D effect */
