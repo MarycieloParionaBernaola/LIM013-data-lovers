@@ -39,27 +39,89 @@ const dataTest = [
   }
 ];
 
-const dataResultOne = [
+const dataResultFilterOne = [
   {
-    "id": 1,
-    "name": "Rick Sanchez",
-    "status": "Alive",
-    "species": "Human",
-    "type": "",
+    "id": 2,
+    "name": "Abadango Cluster Princess",
+    "species": "Alien",
+    "gender": "Female",
+  }
+];
+
+const dataResultFilterTwo = [
+  {
+    "id": 4,
+    "name": "Armothy",
+    "species": "Unknown",
     "gender": "Male",
   }
 ];
 
-const dataResultTwo = [
+const dataResultSortA = [
   {
-    "id": 25,
+    "id": 2,
+    "name": "Abadango Cluster Princess",
+    "species": "Alien",
+    "gender": "Female",
+  },
+  {
+    "id": 3,
+    "name": "Aqua Morty",
+    "species": "Humanoid",
+    "gender": "Male",
+  },
+  {
+    "id": 4,
     "name": "Armothy",
-    "status": "Dead",
     "species": "Unknown",
-    "type": "Self-aware arm",
+    "gender": "Male",
+  },
+  {
+    "id": 1,
+    "name": "Rick Sanchez",
+    "species": "Human",
+    "gender": "Male",
+  },
+  {
+    "id": 5,
+    "name": "Rick Sanchez",
+    "species": "Human",
     "gender": "Male",
   }
-]
+];
+
+const dataResultSortD = [
+  {
+    "id": 1,
+    "name": "Rick Sanchez",
+    "species": "Human",
+    "gender": "Male",
+  },
+  {
+    "id": 5,
+    "name": "Rick Sanchez",
+    "species": "Human",
+    "gender": "Male",
+  },
+  {
+    "id": 4,
+    "name": "Armothy",
+    "species": "Unknown",
+    "gender": "Male",
+  },
+  {
+    "id": 3,
+    "name": "Aqua Morty",
+    "species": "Humanoid",
+    "gender": "Male",
+  },
+  {
+    "id": 2,
+    "name": "Abadango Cluster Princess",
+    "species": "Alien",
+    "gender": "Female",
+  },
+];
 
 // Filter object test
 describe('filterData', () => {
@@ -74,12 +136,12 @@ describe('filterData', () => {
       expect(typeof filterData.byProperty).toBe('function');
     });
   
-    it('should return an array for "dataTest", "species", "Human"', () => {
-    expect(filterData.byProperty(dataTest, 'species', 'Human')).toEqual(dataResultOne);
+    it('should return an array for "dataTest", "species", "Alien"', () => {
+    expect(filterData.byProperty(dataTest, 'species', 'Alien')).toEqual(dataResultFilterOne);
     });
 
     it('should return an array for "dataTest", "species", "Unknown"', () => {
-      expect(filterData.byProperty(dataTest, 'species', 'Unknown')).toEqual(dataResultTwo);
+      expect(filterData.byProperty(dataTest, 'species', 'Unknown')).toEqual(dataResultFilterTwo);
       });
 
     it('should throw an error if called without arguments', () => {
@@ -94,12 +156,12 @@ describe('filterData', () => {
       expect(typeof filterData.searchByName).toBe('function');
     });
 
-    it ('should return an array for "dataTest", "name", "rick"', () => {
-      expect(filterData.searchByName(dataTest, 'name', 'rick')).toEqual(dataResultOne);
+    it ('should return an array for "dataTest", "name", "Abadango"', () => {
+      expect(filterData.searchByName(dataTest, 'name', "Abadango")).toEqual(dataResultFilterOne);
     });
 
     it ('should return an array for "dataTest", "name", "Armothy"', () => {
-      expect(filterData.searchByName(dataTest, 'name', 'Armothy')).toEqual(dataResultTwo);
+      expect(filterData.searchByName(dataTest, 'name', 'Armothy')).toEqual(dataResultFilterTwo);
     });
 
     it('should throw an error if called without an argument', () => {
@@ -117,11 +179,11 @@ describe('sortDataByName', () => {
   })
  
   it('should return the character names in descending order', () => {
-    expect(sortDataByName(dataTest, 'A-Z')).toEqual();
+    expect(sortDataByName(dataTest, 'A-Z')).toEqual(dataResultSortA);
   })
  
   it('should return the character names in ascending order', () => {
-    expect(sortDataByName(dataTest, 'Z-A')).toEqual();
+    expect(sortDataByName(dataTest, 'Z-A')).toEqual(dataResultSortD);
   })
 }); 
 
@@ -131,12 +193,12 @@ describe('statisticsValue', () => {
       expect(typeof statisticsValue).toBe('function');
   });
 
-  it('should return  when asking value of total Ricks', () => {
-      expect(statisticsValue('name', 'Rick', dataTest)).toBe();
+  it('should return when asking value of total Ricks', () => {
+      expect(statisticsValue('name', 'Rick', dataTest)).toBe(2);
   });
 
-  it('should return  when asking value of total Mortys', () => {
-      expect(statisticsValue('name', 'Morty', dataTest)).toBe();
+  it('should return when asking value of total Mortys', () => {
+      expect(statisticsValue('name', 'Morty', dataTest)).toBe(1);
   });
 });
 
@@ -147,11 +209,11 @@ describe('statisticsPercentage', () => {
   });
 
   it ('should return a value for the follow parameters "dataTest", "gender", "Female"', () => {
-    expect(statisticsPercentage(dataTest,'gender','Female')).toBe();
+    expect(statisticsPercentage(dataTest,'gender','Female')).toBe(20);
   });
 
   it ('should return a value for the follow parameters "dataTest", "gender", "Male"', () => {
-    expect(statisticsPercentage(dataTest, 'gender', 'Male')).toBe();
+    expect(statisticsPercentage(dataTest, 'gender', 'Male')).toBe(80);
   });
   
   it ('should not return a value for follow parameters "dataTest", "gender"', () => {
