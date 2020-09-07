@@ -2,9 +2,6 @@ import data from './data/rickandmorty/rickandmorty.js';
 import { statisticsPercentage } from './data.js';
 import { statisticsValue } from './data.js';
 
-
-const dataRickAndMorty = data.results;
-
 // Display Curiosities
 const displayCuriosities = () =>{
     const curiousCard = document.getElementById('curiosities-card-back');
