@@ -2,22 +2,37 @@ import data from './data/rickandmorty/rickandmorty.js';
 import { statisticsPercentage } from './data.js';
 import { statisticsValue } from './data.js';
 
-
 const dataRickAndMorty = data.results;
 
 // Display Curiosities
 const displayCuriosities = () =>{
-    const curiousCard = document.getElementById('curiosities-card-back');
+    const rickAndMortyCard = document.getElementById('rickandmorty-card-back');
+    const genderCard = document.getElementById('gender-card-back');
+    const randomCard = document.getElementById('random-card-back');
     const percentage = statisticsPercentage;
     const value = statisticsValue;
-    curiousCard.innerHTML= 
-        `<p> Existen <b>${value('name', 'Rick', dataRickAndMorty)} Ricks </b> es decir el <b>${percentage('name', 'Rick', dataRickAndMorty)}% </b> de todos los personajes.</p>
-        <p> Existen <b>${value('name', 'Morty', dataRickAndMorty)} Mortys </b> es decir el <b>${percentage('name', 'Morty', dataRickAndMorty)}% </b> de todos los personajes.</p>
+    rickAndMortyCard.innerHTML= 
+        `<h3> Did you know...</h3>
+        <p>There are <b>${value('name', 'Rick', dataRickAndMorty)} Ricks</b>, this equals <b>${percentage(dataRickAndMorty, 'name', 'Rick')}% </b> of all characters.</p></br>
+        <p>There are <b>${value('name', 'Morty', dataRickAndMorty)} Mortys</b>, this equals <b>${percentage(dataRickAndMorty, 'name', 'Morty')}% </b> of all characters.</p>
+        <img src="images/rickandmortyicon.png" class="main-icon">
         `;
+    genderCard.innerHTML= 
+    `<h3> Did you know...</h3>
+    <p> There are <b>${value('gender', 'Female', dataRickAndMorty)} women</b>, this equals <b>${percentage(dataRickAndMorty, 'gender', 'Female')}% </b> of all characters.</p></br>
+    <p> There are <b>${value('gender', 'Male', dataRickAndMorty)} men</b>, this equals <b>${percentage(dataRickAndMorty, 'gender', 'Male')}% </b> of all characters.</p>
+    <img src="images/rickandmortyicon.png" class="main-icon">
+    `;
+    randomCard.innerHTML= 
+    `<h3> Did you know...</h3>
+    <p> There are <b>${value('name', 'Rick', dataRickAndMorty)} Ricks </b> es decir el <b>${percentage(dataRickAndMorty, 'name', 'Rick')}% </b> de todos los personajes.</p></br>
+    <p> There are <b>${value('name', 'Morty', dataRickAndMorty)} Mortys </b> es decir el <b>${percentage(dataRickAndMorty, 'name', 'Morty')}% </b> de todos los personajes.</p>
+    <img src="images/rickandmortyicon.png" class="main-icon">
+    `;
 } 
 displayCuriosities();
 
-
+/* 
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');
 
@@ -27,11 +42,11 @@ const navbarLinks = document.getElementById('navbar-links');
             navbarLinks.classList.toggle('active');
         })
 
-const dataRickAndMorty = data.results;
+
 
     // Function computeStats
 
-    computeStats(dataRickAndMorty, 'gender', 'Female');
+    computeStats(dataRickAndMorty, 'gender', 'Female'); */
 
     // Display footer
     const displayFooter = () =>{
@@ -41,7 +56,7 @@ const dataRickAndMorty = data.results;
                 <a href="https://www.facebook.com/RickandMorty/" target="_blank"><img src="images/facebook.png"></a>
                 <a href="https://www.instagram.com/rickandmorty/" target="_blank"><img src="images/instagram.png"></a>
                 <a href="https://twitter.com/rickandmorty" target="_blank"><img src="images/twitter.png"></a>
-                <a href="#"><img src="images/shop.png" target="_blank"></a>
+                <a href="https://www.adultswim.com/misc/rick-and-morty-products/" target="_blank"><img src="images/shop.png" target="_blank"></a>
                 <a href="https://ko-fi.com/" target="_blank"><img src="images/coffee.png"></a>
             </div>
             <div class="authors">
