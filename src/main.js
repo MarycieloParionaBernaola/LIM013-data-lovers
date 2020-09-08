@@ -66,32 +66,24 @@ const dataRickAndMorty = data.results;
 
 
     // Sort by "A-Z" or "Z-A"
+
     const sortBy = document.querySelector('.sort-by');
     sortBy.addEventListener('change', (event) => {
         const sortSelected = event.target.value;
-        const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
-        displayCharacters(sortAscending);
-    });
-/*
-    const sortBy = document.querySelector('.sort-by');
-    sortBy.addEventListener('change', (event) => {
-        const sortSelected = event.target.value;
+        let result = [];
         switch (sortSelected) {
             case 'A-Z': 
-            const sortAscending = sortDataByName(dataRickAndMorty, sortSelected);
-            displayCharacters(sortAscending);
-            break;
+                result = sortDataByName(dataRickAndMorty, sortSelected);
+                break;
 
             case 'Z-A':
-            const SortDescending = sortDataByName(dataRickAndMorty, sortSelected);
-            displayCharacters(SortDescending);
-            break;
-
-            default: 
-            console.log(`The option selected is out of ${sortSelected}.`);
+                result = sortDataByName(dataRickAndMorty, sortSelected);
+                break;
         }
+        
+        displayCharacters(result);
     });
-*/   
+ 
         
     // Display footer
     const displayFooter = () =>{

@@ -179,11 +179,17 @@ describe('sortDataByName', () => {
   })
  
   it('should return the character names in descending order', () => {
+    const fakeDataTest = [...dataTest];
+    expect(dataTest).toEqual(fakeDataTest);
     expect(sortDataByName(dataTest, 'A-Z')).toEqual(dataResultSortA);
+    expect(dataTest).toEqual(fakeDataTest);
   })
  
   it('should return the character names in ascending order', () => {
+    const fakeDataTest = [...dataTest];
+    expect(dataTest).toEqual(fakeDataTest);
     expect(sortDataByName(dataTest, 'Z-A')).toEqual(dataResultSortD);
+    expect(dataTest).toEqual(fakeDataTest);
   })
 }); 
 
