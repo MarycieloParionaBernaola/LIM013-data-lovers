@@ -33,7 +33,6 @@ const displayCuriosities = () =>{
 
 displayCuriosities();
 
-
 const toggleButton = document.getElementById('toggle-button');
 const navbarLinks = document.getElementById('navbar-links');
 
@@ -59,4 +58,5 @@ const navbarLinks = document.getElementById('navbar-links');
             </div>
             `
     } 
+    
     displayFooter();

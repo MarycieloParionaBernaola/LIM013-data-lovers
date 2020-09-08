@@ -60,6 +60,7 @@ export const statisticsValue = (key, value, data) => {
   return items.length;
 };
 
+
 //Statistics Percentage function
 export const statisticsPercentage = (data, property, type) => {
   if (data !== undefined && property !== undefined && type !== undefined ){
