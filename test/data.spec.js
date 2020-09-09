@@ -145,7 +145,7 @@ describe('filterData', () => {
       });
 
     it('should throw an error if called without arguments', () => {
-      expect(filterData.byProperty).toThrow('All parameters must be filled');
+      expect(filterData.byProperty).toThrow('All arguments must be filled');
     });
 
   });
@@ -214,15 +214,15 @@ describe('statisticsPercentage', () => {
     expect(typeof statisticsPercentage).toBe('function');
   });
 
-  it ('should return a value for the follow parameters "dataTest", "gender", "Female"', () => {
+  it ('should return a value for the follow arguments "dataTest", "gender", "Female"', () => {
     expect(statisticsPercentage(dataTest,'gender','Female')).toBe(20);
   });
 
-  it ('should return a value for the follow parameters "dataTest", "gender", "Male"', () => {
+  it ('should return a value for the follow arguments "dataTest", "gender", "Male"', () => {
     expect(statisticsPercentage(dataTest, 'gender', 'Male')).toBe(80);
   });
   
-  it ('should not return a value for follow parameters "dataTest", "gender"', () => {
+  it ('should throw an error if called without an argument', () => {
     expect(() => statisticsPercentage(dataTest, 'gender')).toThrow(Error);
   });
 

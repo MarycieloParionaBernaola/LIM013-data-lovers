@@ -1,13 +1,13 @@
-// Filter function
+// Filter object
 export const filterData = {
 
   byProperty: (data, property, type) => {
     if (data !== undefined && property !== undefined && type !== undefined) {
       const filterArray = data.filter (item => item [property] == type)
       // console.log(filterArray);
-      return filterArray
+      return filterArray;
     } else {
-      throw Error('All parameters must be filled');
+      throw Error('All arguments must be filled');
     }
   },
 
@@ -22,7 +22,7 @@ export const filterData = {
       // console.log (filterSearchArray)
       return filterSearchArray;
     } else {
-      throw Error('All parameters must be filled');
+      throw Error('All arguments must be filled');
     }
   }
 }
@@ -80,7 +80,7 @@ export const statisticsPercentage = (data, property, type) => {
     // console.log(percentage);
     return percentage;
   } else {
-    throw Error('All parameters must be filled');
+    throw Error('All arguments must be filled');
   }
 
   };
