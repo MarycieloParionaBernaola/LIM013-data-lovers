@@ -80,7 +80,7 @@ const dataRickAndMorty = data.results;
                 result = sortDataByName(dataRickAndMorty, sortSelected);
                 break;
         }
-        
+
         displayCharacters(result);
     });
  
