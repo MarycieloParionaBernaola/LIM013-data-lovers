@@ -16,17 +16,17 @@
 
 1. Who are the main users of the product?
   
-  The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
+    The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
   
-  [Age range of users](src/images/age_range_users.webp)
+      [Age range of users](src/images/age_range_users.webp)
 
-  [How much users know about Rick & Morty](src/images/know_R&M_users.png)
+      [How much users know about Rick & Morty](src/images/know_R&M_users.png)
 
-  [Why users watch Rick & Morty](src/images/watch_users.png)
-  
+      [Why users watch Rick & Morty](src/images/watch_users.png)
+      
 2. What are the objectives of these users in relation to the product?
 
-  There are several interesting aspects of the characters that users would like to know better as character facts, since there are many and it is very useful information to better understand the series.
+    There are several interesting aspects of the characters that users would like to know better as character facts, since there are many and it is very useful information to better understand the series.
 
 ## 2. Users stories
 
