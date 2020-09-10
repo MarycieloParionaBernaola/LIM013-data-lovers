@@ -16,7 +16,9 @@
 
 To understand our users, we design a [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8) to find out their preferences. 
 
-<img src="https://i.ibb.co/BwLDtgF/2.jpg" width="30%">
+<p align="center">
+<img src="https://i.ibb.co/BwLDtgF/2.jpg" width="70%">
+</p>
 
 1. **Who are the main users of the product?**
   
