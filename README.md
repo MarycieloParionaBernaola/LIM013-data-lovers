@@ -14,11 +14,15 @@
 
 ## 1. Product definition
 
+<<<<<<< HEAD
   To understand our users, we design a survey to find out their preferences. [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8)
 
   <img src="https://i.ibb.co/WkDMn8Y/1.jpg">
 
 1. Who are the main users of the product?
+=======
+1. **Who are the main users of the product?**
+>>>>>>> 5ea5bb07b57aad7bc221516fdda7991f0e7a7c71
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
   
@@ -31,39 +35,90 @@
       ### Why users watch Rick & Morty
       <img src="https://i.ibb.co/9tz7S0V/watch-users.png">
       
-2. What are the objectives of these users in relation to the product?
+2. **What are the objectives of these users in relation to the product?**
 
     There are several interesting aspects of the characters that users would like to know better as character facts, since there are many and it is very useful information to better understand the series.
 
+3. **What are the most relevant data to see in the interface and why?**
+
+    Users would much more like to see data about the characters than the list of characters or the list of episodes. In addition, within the data they consider most important are: specie, gender, place of origin and the last location. Also, they mention that the "status" data would be a spoiler to new users. 
+
+    <p align="center">
+    <img src="src/images/type-of-information.jpg">
+    </p>
+
+4. **When do they use or would they use the product?**
+
+    Users mention that they would use the product when they want to know more about a character and when they need more information to better understand the series (timeline according to the last location of the character for example).
+
+
 ## 2. Users stories
 
+<p align="center">
+<img src="src/images/user-stories/visualize-user-story.jpg" width="45%" height="45%">
+<img src="src/images/user-stories/search-user-story.jpg" width="45%" height="45%">
+<img src="src/images/user-stories/filter-user-story.jpg" width="45%" height="45%">
+<img src="src/images/user-stories/sort-user-story.jpg" width="45%" height="45%">
+<img src="src/images/user-stories/compute-user-story.jpg" width="45%" height="45%">
+</p>
 
-
+<<<<<<< HEAD
+#### "Did you know page" to mobile version in Balsamiq
+=======
 ## 3. Low fidelity prototype
 
 #### First prototype
-
-<img src="https://i.ibb.co/BG409ns/FIRST-PROTOTYPE.png">
+<p align="center">
+<img src="https://i.ibb.co/BG409ns/FIRST-PROTOTYPE.png" width="70%">
+</p>
+>>>>>>> 5ea5bb07b57aad7bc221516fdda7991f0e7a7c71
 
 #### Home page to mobile version in Balsamiq
+<p align="center">
+<img src="https://i.ibb.co/ZM5sRC9/Incio.png" width="30%">
+</p>
 
-<img src="https://i.ibb.co/ZM5sRC9/Incio.png">
-
-#### "Did you know page" to mobile version in Balsamiq
-
-<img src="https://i.ibb.co/TmGZwXJ/Curiosidades.png">
-
+#### Did you know page to mobile version in Balsamiq
+<p align="center">
+<img src="https://i.ibb.co/TmGZwXJ/Curiosidades.png" width="30%">
+</p>
 
 ## 4. High fidelity prototype
 
 ### Mobile version
+<p align="center">
+<img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png" width="30%">
+</p>
 
+<<<<<<< HEAD
 <img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png">
   
 [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
 [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
+=======
+    [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
+    [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
+>>>>>>> 5ea5bb07b57aad7bc221516fdda7991f0e7a7c71
+
+### Desktop version
+
+<p align="center">
+<img src="src/images/desktop-version.png" width="80%">
+<img src="src/images/desktop-version-did-you-know.png" width="80%">
+</p>
+
+    [Figma Desktop Version.](https://www.figma.com/proto/53c6jWT5vyU5u6h4LFWNQL/Rick-and-Morty-desktop?node-id=11%3A33&scaling=min-zoom)
+    [Zeplin Desktop Version.](https://scene.zeplin.io/project/5f59c9be607508819f1d6403)
+
 
 ## 5. Usability testing
+
+<p align="center">
+<img src="src/images/desktop-usability-test.png" width="80%">
+</p>
+Feedback:
+
+- Due to there are many cards (493 characters), it was difficult for the user to return to the top and filter/order or search again, so the fixed bar was implemented.
 
 ## 6. Learning objectives
 
