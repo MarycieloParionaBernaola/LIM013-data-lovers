@@ -103,6 +103,8 @@ Feedback:
 
 - Users liked the color palette used, because they represent the colors of the series, so in the header the yellow color is for Morty's t-shirt and the light blue color at the other end represents Rick's hair. In addition, the green intermediate color also typical of the series, however, users recommended highlighting the cards a little bit more, for that reason the properties box-shadow and a border-color were implemented on the cards.
 
+- Users suggested highlighting the search, filtering and sort bar more, so the color was changed to black. 
+
 ## 6. Learning objectives
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
