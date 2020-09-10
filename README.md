@@ -16,7 +16,7 @@
 
 To understand our users, we design a [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8) to find out their preferences. 
 
-<img src="https://i.ibb.co/BwLDtgF/2.jpg">
+<img src="https://i.ibb.co/BwLDtgF/2.jpg" width="30%">
 
 1. **Who are the main users of the product?**
   
@@ -90,8 +90,8 @@ In the sticky header, the start button was changed to the Home icon, since it is
 <img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png" width="30%">
 </p>
 
-    [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
-    [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
+[Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
+[Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
 
 ### Desktop version
 
@@ -100,8 +100,8 @@ In the sticky header, the start button was changed to the Home icon, since it is
 <img src="src/images/desktop-version-did-you-know.png" width="80%">
 </p>
 
-    [Figma Desktop Version.](https://www.figma.com/proto/53c6jWT5vyU5u6h4LFWNQL/Rick-and-Morty-desktop?node-id=11%3A33&scaling=min-zoom)
-    [Zeplin Desktop Version.](https://scene.zeplin.io/project/5f59c9be607508819f1d6403)
+[Figma Desktop Version.](https://www.figma.com/proto/53c6jWT5vyU5u6h4LFWNQL/Rick-and-Morty-desktop?node-id=11%3A33&scaling=min-zoom)
+[Zeplin Desktop Version.](https://scene.zeplin.io/project/5f59c9be607508819f1d6403)
 
 
 ## 5. Usability testing
