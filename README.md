@@ -14,6 +14,10 @@
 
 ## 1. Product definition
 
+To understand our users, we design a [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8) to find out their preferences. 
+
+<img src="https://i.ibb.co/BwLDtgF/2.jpg">
+
 1. **Who are the main users of the product?**
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
@@ -57,11 +61,19 @@
 ## 3. Low fidelity prototype
 
 #### First prototype
+
+On the main page of the web, a sticky header was designed, which included the title of the web page, a search engine, three options (Characters, Origin, Did you know?), Sort A-Z and the Relevance option. In the body a brief description with cards that inside contain an image and data of each character. Finally, in the footer, links to social networks such as facebook, instagram, twitter and who is developing the project.
+
+In the Did you know tab, we kept the header sticky. In the body, statistical calculations about the characters, accompanied by images. The footer of the main page was kept.
+
 <p align="center">
 <img src="https://i.ibb.co/BG409ns/FIRST-PROTOTYPE.png" width="70%">
 </p>
 
 #### Home page to mobile version in Balsamiq
+
+In the sticky header, the start button was changed to the Home icon, since it is more intuitive for the user. In addition, in the footer the Store icon that takes you to a link related to the Rick & Morty series was added, and the coffee icon that invites users to invite the developers of this website to a coffee.
+
 <p align="center">
 <img src="https://i.ibb.co/ZM5sRC9/Incio.png" width="30%">
 </p>
