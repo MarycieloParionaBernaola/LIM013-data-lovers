@@ -18,11 +18,11 @@
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
   
-      [Age range of users](src/images/age_range_users.webp)
+      [Age range of users](https://i.ibb.co/SVPLNsW/age-range-users.png)
 
-      [How much users know about Rick & Morty](src/images/know_R&M_users.png)
+      [How much users know about Rick & Morty](https://i.ibb.co/zmxyh71/know-R-M-users.png)
 
-      [Why users watch Rick & Morty](src/images/watch_users.png)
+      [Why users watch Rick & Morty](https://i.ibb.co/2NmTHrs/watch-users.png)
       
 2. What are the objectives of these users in relation to the product?
 
@@ -32,7 +32,14 @@
 
 ## 3. Low fidelity prototype
 
+### Mobile version
+
 ## 4. High fidelity prototype
+
+### Mobile version
+
+    [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
+    [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
 
 ## 5. Usability testing
 
