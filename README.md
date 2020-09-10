@@ -14,6 +14,12 @@
 
 ## 1. Product definition
 
+To understand our users, we design a [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8) to find out their preferences. 
+
+<p align="center">
+<img src="https://i.ibb.co/BwLDtgF/2.jpg" width="70%">
+</p>
+
 1. **Who are the main users of the product?**
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
@@ -57,11 +63,19 @@
 ## 3. Low fidelity prototype
 
 #### First prototype
+
+On the main page of the web, a sticky header was designed, which included the title of the web page, a search engine, three options (Characters, Origin, Did you know?), Sort A-Z and the Relevance option. In the body a brief description with cards that inside contain an image and data of each character. Finally, in the footer, links to social networks such as facebook, instagram, twitter and who is developing the project.
+
+In the Did you know tab, we kept the header sticky. In the body, statistical calculations about the characters, accompanied by images. The footer of the main page was kept.
+
 <p align="center">
 <img src="https://i.ibb.co/BG409ns/FIRST-PROTOTYPE.png" width="70%">
 </p>
 
 #### Home page to mobile version in Balsamiq
+
+In the sticky header, the start button was changed to the Home icon, since it is more intuitive for the user. In addition, in the footer the Store icon that takes you to a link related to the Rick & Morty series was added, and the coffee icon that invites users to invite the developers of this website to a coffee.
+
 <p align="center">
 <img src="https://i.ibb.co/ZM5sRC9/Incio.png" width="30%">
 </p>
@@ -78,8 +92,8 @@
 <img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png" width="30%">
 </p>
 
-    [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
-    [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
+[Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
+[Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
 
 ### Desktop version
 
@@ -88,8 +102,8 @@
 <img src="src/images/desktop-version-did-you-know.png" width="80%">
 </p>
 
-    [Figma Desktop Version.](https://www.figma.com/proto/53c6jWT5vyU5u6h4LFWNQL/Rick-and-Morty-desktop?node-id=11%3A33&scaling=min-zoom)
-    [Zeplin Desktop Version.](https://scene.zeplin.io/project/5f59c9be607508819f1d6403)
+[Figma Desktop Version.](https://www.figma.com/proto/53c6jWT5vyU5u6h4LFWNQL/Rick-and-Morty-desktop?node-id=11%3A33&scaling=min-zoom)
+[Zeplin Desktop Version.](https://scene.zeplin.io/project/5f59c9be607508819f1d6403)
 
 
 ## 5. Usability testing
