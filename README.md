@@ -21,11 +21,11 @@
 2. What are the objectives of these users in relation to the product?
 
 
-  [Age range of users](src/images/age_range_users)
+  [Age range of users](src/images/age_range_users.png)
 
-  [How much users know about Rick & Morty](src/images/know_R&M_users)
+  [How much users know about Rick & Morty](src/images/know_R&M_users.png)
 
-  [Why users watch Rick & Morty](src/images/watch_users)
+  [Why users watch Rick & Morty](src/images/watch_users.png)
 
 ## 1. Preámbulo
 
