@@ -45,7 +45,7 @@
 
 <img src="https://i.ibb.co/ZM5sRC9/Incio.png">
 
-#### Did you know page to mobile version in Balsamiq
+#### "Did you know page" to mobile version in Balsamiq
 
 <img src="https://i.ibb.co/TmGZwXJ/Curiosidades.png">
 
@@ -56,8 +56,8 @@
 
 <img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png">
   
-    [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
-    [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
+[Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
+[Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
 
 ## 5. Usability testing
 
