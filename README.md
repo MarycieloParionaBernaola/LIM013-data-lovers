@@ -18,7 +18,8 @@
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
   
-      [Age range of users](https://i.ibb.co/SVPLNsW/age-range-users.png)
+      ### Age range of users
+      <img src="https://i.ibb.co/TPkCcvp/age-range-users.png">
 
       [How much users know about Rick & Morty](https://i.ibb.co/zmxyh71/know-R-M-users.png)
 
