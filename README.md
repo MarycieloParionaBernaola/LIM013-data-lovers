@@ -14,6 +14,10 @@
 
 ## 1. Product definition
 
+  To understand our users, we design a survey to find out their preferences. [Survey](https://forms.gle/7K7ZKNiZynNEaPUB8)
+
+  <img src="https://i.ibb.co/WkDMn8Y/1.jpg">
+
 1. Who are the main users of the product?
   
     The main users of the product are people in the age range of 18 to 34, who find the Rick and Morty series entertaining and have watched a few episodes and liked the series.
