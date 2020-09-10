@@ -21,9 +21,11 @@
       ### Age range of users
       <img src="https://i.ibb.co/TPkCcvp/age-range-users.png">
 
-      [How much users know about Rick & Morty](https://i.ibb.co/zmxyh71/know-R-M-users.png)
-
-      [Why users watch Rick & Morty](https://i.ibb.co/2NmTHrs/watch-users.png)
+      ### How much users know about Rick & Morty
+      <img src="https://i.ibb.co/0n2gjFk/know-R-M-users.png">
+      
+      ### Why users watch Rick & Morty
+      <img src="https://i.ibb.co/9tz7S0V/watch-users.png">
       
 2. What are the objectives of these users in relation to the product?
 
@@ -31,14 +33,29 @@
 
 ## 2. Users stories
 
+
+
 ## 3. Low fidelity prototype
 
-### Mobile version
+#### First prototype
+
+<img src="https://i.ibb.co/BG409ns/FIRST-PROTOTYPE.png">
+
+#### Home page to mobile version in Balsamiq
+
+<img src="https://i.ibb.co/ZM5sRC9/Incio.png">
+
+#### Did you know page to mobile version in Balsamiq
+
+<img src="https://i.ibb.co/TmGZwXJ/Curiosidades.png">
+
 
 ## 4. High fidelity prototype
 
 ### Mobile version
 
+<img src="https://i.ibb.co/YyYKzX2/mobile-version-high.png">
+  
     [Figma Mobile Version.](https://www.figma.com/proto/8CaF8N5V4TjhbuZUgDxiZU/Rick-%26-Morty-mobile-version?node-id=4%3A0&scaling=scale-down)
     [Zeplin Mobile Version.](https://zpl.io/scene/bJe51LE)
 
